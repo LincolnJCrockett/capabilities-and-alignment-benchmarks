@@ -1,0 +1,246 @@
+source,source_model,epoch_model,match_type,confidence,review_output,needs_review,note,eci,eci_ci_low,eci_ci_high,eci_n_benchmarks,release_date,organization,fuzzy_top1,fuzzy_top2
+irt,amazon/nova-2-lite-v1,,none,high,,False,Nova not in ECI; Nova Lite/Micro/Pro appear in some Epoch external benchmark files,,,,,,,GPT-4o (Nov 2024),PaLM 2-L
+irt,amazon/nova-lite-v1,,none,high,,False,see above,,,,,,,Mistral NeMo,Claude Instant
+irt,amazon/nova-micro-v1,,none,high,,False,see above,,,,,,,Mistral NeMo,o4-mini
+irt,anthropic/claude-3-haiku,Claude 3 Haiku,exact,high,,False,,117.79,113.6,121.58,9.0,2024-03-07,Anthropic,Claude 3 Haiku,Claude 3.5 Haiku
+irt,anthropic/claude-3.5-haiku,Claude 3.5 Haiku,exact,high,,False,,124.75,121.49,127.65,11.0,2024-10-22,Anthropic,Claude 3.5 Haiku,Claude Haiku 5.5
+irt,anthropic/claude-haiku-4.5,Claude Haiku 4.5,exact,high,,False,,142.76,141.15,144.34,16.0,2025-10-15,Anthropic,Claude Haiku 4.5,Claude Haiku 5.5
+irt,anthropic/claude-opus-4,Claude Opus 4,exact,high,,False,,142.88,141.27,144.47,19.0,2025-05-22,Anthropic,Claude Opus 4,Claude Opus 4.8
+irt,anthropic/claude-sonnet-4,Claude Sonnet 4,exact,high,,False,,141.88,140.3,143.41,21.0,2025-05-22,Anthropic,Claude Sonnet 4,Claude Sonnet 4.6
+irt,anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,exact,high,,False,,147.59,146.14,149.04,26.0,2025-09-29,Anthropic,Claude Sonnet 4.5,Claude Sonnet 5.5
+irt,arcee-ai/trinity-mini,,none,high,,False,,,,,,,,o4-mini,o3-mini
+irt,bytedance-seed/seed-1.6,,none,high,,False,,,,,,,,GPT-6.1 Sol,GPT-6.1 Terra
+irt,bytedance-seed/seed-1.6-flash,,none,high,,False,,,,,,,,Qwen 3.6 Flash,Gemini 3.6 Flash
+irt,bytedance-seed/seed-2.0-lite,,none,high,,False,,,,,,,,Claude 2,Gemini 2.0 Flash (Feb 2025)
+irt,bytedance-seed/seed-2.0-mini,,none,high,,False,,,,,,,,Gemini 2.0 Pro,o1-mini
+irt,bytedance/ui-tars-1.5-7b,,none,high,,False,,,,,,,,Mistral 7B v0.1,Gemini 1.5 Flash (May 2024)
+irt,cohere/command-a,,none,high,,False,,,,,,,,Claude 2,Gemma 7B
+irt,cohere/command-r-08-2024,,none,high,,False,,,,,,,,GPT-4o (Aug 2024),o1-mini
+irt,cohere/command-r7b-12-2024,,none,high,,False,,,,,,,,o1-mini,Grok-2 (Dec 2024)
+irt,deepseek/deepseek-chat,DeepSeek-V3,snapshot,medium,F,True,OpenRouter alias; pointed at DeepSeek-V3 (Dec 2024) - verify it wasn't routed to V3-0324,131.71,129.14,134.01,14.0,2024-12-26,DeepSeek,DeepSeek-R1,DeepSeek-V3
+irt,deepseek/deepseek-chat-v3,DeepSeek-V3,snapshot,medium,T,True,Likely duplicate of deepseek/deepseek-chat; Epoch pools V3 and V3-Base,131.71,129.14,134.01,14.0,2024-12-26,DeepSeek,DeepSeek-V3,DeepSeek-V3.2
+irt,deepseek/deepseek-chat-v3-0324,DeepSeek-V3 (Mar 2025),exact,high,,False,,135.28,133.12,137.34,10.0,2025-03-24,DeepSeek,DeepSeek-V3 (Mar 2025),DeepSeek-V3.2
+irt,deepseek/deepseek-chat-v3.1,DeepSeek-V3.1,exact,high,,False,,140.8,137.55,143.94,5.0,2025-08-21,DeepSeek,DeepSeek-V3.1,DeepSeek-V3.2
+irt,deepseek/deepseek-r1-distill-llama-70b,,none,high,,False,"Distill, not R1",,,,,,,DeepSeek-R1 (May 2025),DeepSeek-V3 (Mar 2025)
+irt,deepseek/deepseek-r1-distill-qwen-32b,,none,high,,False,"Distill, not R1",,,,,,,DeepSeek-R1 (May 2025),DeepSeek-V3.2-Exp
+irt,deepseek/deepseek-v3.1-terminus,,none,medium,T,True,Update of V3.1; could proxy with DeepSeek-V3.1 (family),,,,,,,DeepSeek-V3.1,DeepSeek-V3.2-Exp
+irt,deepseek/deepseek-v3.2,DeepSeek-V3.2,exact,high,,False,,146.26,144.75,147.75,14.0,2025-12-01,DeepSeek,DeepSeek-V3.2,DeepSeek-V3.1
+irt,deepseek/deepseek-v3.2-exp,DeepSeek-V3.2-Exp,exact,high,,False,,144.39,142.07,146.73,8.0,2025-09-29,DeepSeek,DeepSeek-V3.2-Exp,DeepSeek-V3.2
+irt,deepseek/deepseek-v4-flash,DeepSeek-V4-Flash,exact,high,,False,"IRT data built 2026-07-27, before the 0731 Flash snapshot",146.84,143.6,150.16,4.0,2026-04-24,DeepSeek,DeepSeek-V4-Flash,DeepSeek V4.1 Flash
+irt,deepseek/deepseek-v4-pro,DeepSeek-V4-Pro,exact,high,,False,IRT data built before the 0813 Pro snapshot,150.21,148.47,152.04,14.0,2026-04-24,DeepSeek,DeepSeek-V4-Pro,DeepSeek V4 Pro 0813
+irt,essentialai/rnj-1-instruct,,none,high,,False,,,,,,,,Qwen-14B,Qwen3-14B
+irt,google/gemini-2.0-flash-001,Gemini 2.0 Flash (Feb 2025),exact,high,,False,,134.02,131.74,136.18,11.0,2025-02-05,"Google DeepMind,Google",Gemini 2.0 Flash (Feb 2025),Gemini 3.8 Flash
+irt,google/gemini-2.0-flash-lite-001,,none,high,,False,,,,,,,,Gemini 3.5 Flash-Lite,Gemini 3.1 Flash-Lite
+irt,google/gemini-2.5-flash,Gemini 2.5 Flash (Jun 2025),exact,high,,False,OpenRouter slug = GA release,140.84,138.4,143.12,7.0,2025-06-17,Google DeepMind,Gemini 2.5 Flash (Jun 2025),Gemini 3.5 Flash
+irt,google/gemini-2.5-flash-lite,Gemini 2.5 Flash-Lite (Jun 2025),snapshot,medium,T,True,OpenRouter = GA (Jul 2025); Epoch scored preview-06-17,133.05,129.37,136.47,4.0,2025-06-17,Google DeepMind,Gemini 3.5 Flash-Lite,Gemini 3.1 Flash-Lite
+irt,google/gemini-2.5-flash-lite-preview-09-2025,,none,medium,T,True,Sep 2025 Flash-Lite preview not in ECI,,,,,,,Gemini 2.5 Flash (Sep 2025),Gemini 2.5 Flash-Lite (Jun 2025)
+irt,google/gemini-2.5-pro,Gemini 2.5 Pro (Jun 2025),exact,high,,False,OpenRouter slug = GA release,144.91,143.5,146.3,20.0,2025-06-05,Google DeepMind,Gemini 2.5 Pro (Jun 2025),Gemini 1.5 Pro (May 2024)
+irt,google/gemini-3-flash-preview,Gemini 3 Flash,exact,high,,False,Epoch also scored gemini-3-flash-preview,152.34,150.79,153.98,20.0,2025-12-17,Google DeepMind,Gemini 3 Flash,Gemini 2.5 Flash (Apr 2025)
+irt,google/gemini-3.1-flash-lite,Gemini 3.1 Flash-Lite,exact,high,,False,,145.03,142.88,147.25,8.0,2026-03-03,Google,Gemini 3.1 Flash-Lite,Gemini 3.5 Flash-Lite
+irt,google/gemini-3.1-flash-lite-preview,Gemini 3.1 Flash-Lite,snapshot,medium,F,True,Preview vs GA; duplicate of the GA row,145.03,142.88,147.25,8.0,2026-03-03,Google,Gemini 2.5 Flash-Lite (Jun 2025),Gemini 3 Flash
+irt,google/gemma-2-27b-it,Gemma 2 27B,exact,high,,False,Epoch pools base + it,118.61,114.48,122.35,6.0,2024-06-24,Google DeepMind,Gemma 2 27B,Gemma 2 9B
+irt,google/gemma-3-12b-it,,none,high,,False,,,,,,,,Gemma 3 27B,Gemma 2B
+irt,google/gemma-3-27b-it,Gemma 3 27B,exact,high,,False,,127.5,124.41,130.28,8.0,2025-03-12,Google DeepMind,Gemma 3 27B,Gemma 7B
+irt,google/gemma-3-4b-it,,none,high,,False,,,,,,,,Gemma 4 31B IT,Gemma 2 9B
+irt,google/gemma-3n-e4b-it,,none,high,,False,,,,,,,,Gemma 4 31B IT,Gemma 2 9B
+irt,google/gemma-4-26b-a4b-it,Gemma 4 26B A4B,exact,high,,False,,141.58,139.14,144.02,5.0,2026-04-02,Google DeepMind,Gemma 4 26B A4B,Gemma 2 9B
+irt,google/gemma-4-31b-it,Gemma 4 31B IT,exact,high,,False,,144.12,141.72,146.59,7.0,2026-04-02,Google DeepMind,Gemma 4 31B IT,Gemma 7B
+irt,gryphe/mythomax-l2-13b,,none,high,,False,Community Llama-2 merge,,,,,,,Llama 2-13B,LLaMA-13B
+irt,ibm-granite/granite-4.0-h-micro,,none,high,,False,,,,,,,,Mistral Large 4 Preview,Mistral Large 4
+irt,ibm-granite/granite-4.1-8b,,none,high,,False,,,,,,,,GPT-4.1,GPT-4.1 mini
+irt,inclusionai/ling-2.6-1t,,none,high,,False,,,,,,,,GPT-4.1 mini,Falcon 2 11B
+irt,inclusionai/ling-2.6-flash,,none,high,,False,,,,,,,,Gemini 3.6 Flash,Gemini 2.5 Flash (Jun 2025)
+irt,inflection/inflection-3-pi,,none,high,,False,,,,,,,,phi-3-mini 3.8B,Gemini 3 Flash
+irt,inflection/inflection-3-productivity,,none,high,,False,,,,,,,,Gemini 3 Flash,Nemotron 3 Ultra
+irt,kwaipilot/kat-coder-pro-v2,,none,high,,False,,,,,,,,DeepSeek-V4-Pro,DeepSeek-Coder-V2-Lite-Base
+irt,liquid/lfm-2-24b-a2b,,none,high,,False,,,,,,,,Llama 2-34B,Gemma 4 26B A4B
+irt,liquid/lfm-2-24b-a2b-20260224,,none,high,,False,,,,,,,,Qwen3-235B-A22B-Instruct (Jul 2025),GPT-4o (Nov 2024)
+irt,meta-llama/llama-3-70b-instruct,Llama 3-70B,exact,high,,False,Epoch pools base + instruct,121.34,117.67,124.75,7.0,2024-04-18,Meta AI,Llama 3-70B,Llama 3.3 70B
+irt,meta-llama/llama-3-8b-instruct,Llama 3-8B,exact,high,,False,Epoch pools base + instruct,109.0,103.32,113.95,10.0,2024-04-18,Meta AI,Llama 3-8B,Llama 3.1-8B
+irt,meta-llama/llama-3.1-70b-instruct,Llama 3.1-70B,exact,high,,False,,124.72,121.58,127.63,9.0,2024-07-23,Meta AI,Llama 3.1-70B,Llama 3.3 70B
+irt,meta-llama/llama-3.1-8b-instruct,Llama 3.1-8B,exact,high,,False,,110.78,105.32,115.82,10.0,2024-07-23,Meta AI,Llama 3.1-8B,Llama 3-8B
+irt,meta-llama/llama-3.2-11b-vision-instruct,,none,high,,False,Only Llama 3.2 90B in ECI,,,,,,,Llama 3.2 90B,Llama 2-13B
+irt,meta-llama/llama-3.2-1b-instruct,,none,high,,False,,,,,,,,Llama 2-13B,Llama 2-34B
+irt,meta-llama/llama-3.2-3b-instruct,,none,high,,False,,,,,,,,Llama 3.2 90B,Llama 2-34B
+irt,meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B,exact,high,,False,,126.16,123.1,128.98,10.0,2024-12-06,Meta AI,Llama 3.3 70B,Llama 3.1-70B
+irt,meta-llama/llama-4-maverick,Llama 4 Maverick,exact,high,,False,,132.24,130.0,134.26,13.0,2025-04-06,Meta AI,Llama 4 Maverick,Llama 4 Scout
+irt,meta-llama/llama-4-scout,Llama 4 Scout,exact,high,,False,,127.77,124.88,130.4,9.0,2025-04-05,Meta AI,Llama 4 Scout,Llama 4 Maverick
+irt,meta-llama/llama-guard-4-12b,,none,high,,False,"Safety classifier, not a chat model - consider excluding from analysis",,,,,,,Llama 2-13B,Llama 2-34B
+irt,microsoft/phi-4,Phi-4,exact,high,,False,,129.24,126.27,131.95,5.0,2024-12-12,Microsoft Research,Phi-4,Phi-2
+irt,microsoft/phi-4-mini-instruct,,none,high,,False,,,,,,,,phi-3-mini 3.8B,Phi-4
+irt,microsoft/wizardlm-2-8x22b,,none,high,,False,Mixtral fine-tune,,,,,,,Mixtral 8x22B,PaLM 2-L
+irt,minimax/minimax-01,,none,high,,False,Only MiniMax-M3 in ECI,,,,,,,MiniMax-M3,GPT-4.1 mini
+irt,minimax/minimax-m2,,none,high,,False,,,,,,,,MiniMax-M3,Gemma 2B
+irt,minimax/minimax-m2-her,,none,high,,False,,,,,,,,MiniMax-M3,GPT-5 mini
+irt,minimax/minimax-m2.1,,none,high,,False,,,,,,,,MiniMax-M3,GPT-4.1 mini
+irt,minimax/minimax-m2.5,,none,high,,False,,,,,,,,MiniMax-M3,GPT-5 mini
+irt,minimax/minimax-m2.7,,none,high,,False,,,,,,,,MiniMax-M3,GPT-5 mini
+irt,mistralai/codestral-2508,,none,high,,False,,,,,,,,Mistral Medium 3,Mistral Large
+irt,mistralai/devstral-2512,,none,high,,False,,,,,,,,Mistral Large,Mistral Medium 3
+irt,mistralai/devstral-small,,none,high,,False,,,,,,,,Mistral NeMo,Inkling-Small
+irt,mistralai/ministral-14b-2512,,none,high,,False,,,,,,,,Mistral Medium 3.5,Mixtral 8x22B
+irt,mistralai/ministral-3b-2512,,none,high,,False,,,,,,,,Mistral 7B v0.1,Mixtral 8x22B
+irt,mistralai/ministral-8b-2512,,none,high,,False,,,,,,,,Mistral 7B v0.1,Mixtral 8x22B
+irt,mistralai/mistral-7b-instruct-v0.1,Mistral 7B v0.1,family,medium,,True,Epoch scored base Mistral-7B-v0.1 only,102.56,94.84,109.26,10.0,2023-09-27,Mistral AI,Mistral 7B v0.1,Mixtral 8x7B
+irt,mistralai/mistral-large,Mistral Large 2 (Jul 2024),snapshot,low,F,True,OpenRouter alias has pointed at 2407/2411; ECI 'Mistral Large' is 2402. Verify,126.42,123.24,129.4,6.0,2024-07-24,Mistral AI,Mistral Large,Mistral Large 4
+irt,mistralai/mistral-large-2512,,none,high,,False,"Mistral Large 3 not in ECI (only Large 2, Large 4)",,,,,,,Mistral Large,Mistral Large 4
+irt,mistralai/mistral-medium-3,Mistral Medium 3,exact,high,,False,,132.81,130.17,135.2,5.0,2025-05-07,Mistral AI,Mistral Medium 3,Mistral Medium 3.5
+irt,mistralai/mistral-medium-3.1,,none,medium,T,True,Could proxy with Mistral Medium 3 (family),,,,,,,Mistral Medium 3,Mistral Medium 3.5
+irt,mistralai/mistral-nemo,Mistral NeMo,exact,high,,False,,113.81,108.8,118.19,6.0,2024-07-18,Mistral AI,Mistral NeMo,Mistral 7B v0.1
+irt,mistralai/mistral-saba,,none,high,,False,,,,,,,,Mistral NeMo,Mistral 7B v0.1
+irt,mistralai/mistral-small-24b-instruct-2501,,none,high,,False,,,,,,,,Mistral NeMo,phi-3-small 7.4B
+irt,mistralai/mistral-small-2603,,none,high,,False,,,,,,,,Mistral NeMo,Mistral Medium 3.5
+irt,mistralai/mistral-small-3.1-24b-instruct,,none,high,,False,,,,,,,,Mistral 7B v0.1,phi-3-small 7.4B
+irt,mistralai/mistral-small-3.2-24b-instruct,,none,high,,False,,,,,,,,phi-3-small 7.4B,Mistral NeMo
+irt,mistralai/mixtral-8x22b-instruct,Mixtral 8x22B,exact,high,,False,Epoch pools base + instruct,118.66,114.34,122.54,6.0,2024-04-17,Mistral AI,Mixtral 8x22B,Mixtral 8x7B
+irt,mistralai/voxtral-small-24b-2507,,none,high,,False,,,,,,,,Mistral Large 2 (Jul 2024),phi-3-small 7.4B
+irt,moonshotai/kimi-k2,Kimi K2 (Jul 2025),exact,high,,False,,141.25,138.25,143.95,6.0,2025-07-12,Moonshot,Kimi K2 (Jul 2025),Kimi K2.6
+irt,moonshotai/kimi-k2-0905,,none,medium,T,True,Could proxy with Kimi K2 (Jul 2025) (snapshot),,,,,,,Kimi K2.5,Kimi K2.6
+irt,moonshotai/kimi-k2.5,Kimi K2.5,exact,high,,False,,148.8,147.3,150.35,14.0,2026-01-27,Moonshot,Kimi K2.5,Kimi K2.6
+irt,moonshotai/kimi-k2.6,Kimi K2.6,exact,high,,False,,151.62,149.86,153.44,15.0,2026-04-20,Moonshot,Kimi K2.6,Kimi K2.5
+irt,nex-agi/deepseek-v3.1-nex-n1,,none,high,,False,Third-party fine-tune,,,,,,,DeepSeek-V3.2-Exp,DeepSeek-V3.1
+irt,nousresearch/hermes-2-pro-llama-3-8b,,none,high,,False,Fine-tune,,,,,,,Llama 3.1-8B,Llama 3.2 90B
+irt,nousresearch/hermes-3-llama-3.1-405b,,none,high,,False,Fine-tune,,,,,,,Llama 3.1-405B,Llama 3.3 70B
+irt,nousresearch/hermes-3-llama-3.1-70b,,none,high,,False,Fine-tune,,,,,,,Llama 3.3 70B,Llama 3.1-70B
+irt,nousresearch/hermes-4-405b,,none,high,,False,Fine-tune,,,,,,,Llama 3.1-405B,Gemma 4 26B A4B
+irt,nousresearch/hermes-4-70b,,none,high,,False,Fine-tune,,,,,,,GLM-4.7,Llama 3-70B
+irt,nvidia/llama-3.3-nemotron-super-49b-v1.5,,none,high,,False,,,,,,,,Nemotron 3 Ultra,Llama 3.2 90B
+irt,nvidia/nemotron-3-nano-30b-a3b,,none,high,,False,Only Nemotron 3 Ultra in ECI,,,,,,,Nemotron-4 15B,Qwen 3.6 35B-A3B
+irt,nvidia/nemotron-3-super-120b-a12b,,none,high,,False,,,,,,,,Nemotron 3 Ultra,Nemotron-4 15B
+irt,nvidia/nemotron-nano-9b-v2,,none,high,,False,,,,,,,,Nemotron-4 15B,Nemotron 3 Ultra
+irt,openai/gpt-3.5-turbo,GPT-3.5 Turbo (Jan 2024),snapshot,medium,T,True,Alias -> gpt-3.5-turbo-0125,112.77,107.84,117.15,9.0,2024-01-25,OpenAI,GPT-3.5 Turbo (Jan 2024),GPT-3.5 Turbo (Jun 2023)
+irt,openai/gpt-3.5-turbo-0613,GPT-3.5 Turbo (Jun 2023),exact,high,,False,,105.84,97.72,113.26,4.0,2023-06-13,OpenAI,GPT-3.5 Turbo (Jun 2023),GPT-3.5 Turbo (Jan 2024)
+irt,openai/gpt-3.5-turbo-16k,,none,medium,T,True,16k context variant; snapshot ambiguous,,,,,,,GPT-3.5 Turbo (Nov 2023),GPT-3.5 Turbo (Jan 2024)
+irt,openai/gpt-4-turbo,GPT-4 Turbo (Apr 2024),snapshot,medium,T,True,Alias -> gpt-4-turbo-2024-04-09 (fuzzy match wrongly suggested Nov 2023),125.82,122.84,128.62,8.0,2024-04-09,OpenAI,GPT-4 Turbo (Nov 2023),GPT-5.4 Pro
+irt,openai/gpt-4.1,GPT-4.1,exact,high,,False,,136.18,134.14,138.06,17.0,2025-04-14,OpenAI,GPT-4.1,GPT-5.1
+irt,openai/gpt-4.1-mini,GPT-4.1 mini,exact,high,,False,,134.27,132.13,136.21,15.0,2025-04-14,OpenAI,GPT-4.1 mini,GPT-4o mini
+irt,openai/gpt-4.1-nano,GPT-4.1 nano,exact,high,,False,,126.81,123.79,129.59,13.0,2025-04-14,OpenAI,GPT-4.1 nano,GPT-5.4 Nano
+irt,openai/gpt-4o,GPT-4o (Aug 2024),snapshot,low,T,True,Alias; ECI has May/Aug/Nov 2024 snapshots. Verify which one OpenRouter served,127.12,124.07,129.86,10.0,2024-08-06,OpenAI,GPT-5.4,GPT-4.5
+irt,openai/gpt-4o-mini,GPT-4o mini,exact,high,,False,,123.75,120.5,126.65,19.0,2024-07-18,OpenAI,GPT-4o mini,GPT-5.4 Mini
+irt,openai/gpt-4o-mini-2024-07-18,GPT-4o mini,exact,high,,False,Duplicate of openai/gpt-4o-mini,123.75,120.5,126.65,19.0,2024-07-18,OpenAI,GPT-4o mini,GPT-5 mini
+irt,openai/gpt-5-mini,GPT-5 mini,exact,high,,False,,146.01,144.4,147.59,17.0,2025-08-07,OpenAI,GPT-5 mini,GPT-5.4 Mini
+irt,openai/gpt-5-nano,GPT-5 nano,exact,high,,False,,139.09,137.15,140.93,17.0,2025-08-07,OpenAI,GPT-5 nano,GPT-5.4 Nano
+irt,openai/gpt-5.4-nano,GPT-5.4 Nano,exact,high,,False,,146.33,144.67,148.02,13.0,2026-03-17,OpenAI,GPT-5.4 Nano,GPT-5 nano
+irt,openai/gpt-oss-120b,gpt-oss-120b,exact,high,,False,,140.23,138.26,142.08,13.0,2025-08-05,OpenAI,gpt-oss-120b,gpt-oss-20b
+irt,openai/gpt-oss-20b,gpt-oss-20b,exact,high,,False,,134.88,132.27,137.31,6.0,2025-08-05,OpenAI,gpt-oss-20b,gpt-oss-120b
+irt,openai/o3-mini,o3-mini,exact,high,,False,Reasoning effort may differ (OpenRouter default vs Epoch runs),140.65,138.96,142.25,19.0,2025-01-31,OpenAI,o3-mini,o4-mini
+irt,openai/o4-mini,o4-mini,exact,high,,False,Reasoning effort may differ,145.22,143.68,146.7,22.0,2025-04-16,OpenAI,o4-mini,o3-mini
+irt,perceptron/perceptron-mk1,,none,high,,False,,,,,,,,Nemotron-4 15B,DeepSeek V4 Pro 0813
+irt,perplexity/sonar,,none,high,,False,,,,,,,,Muse Wonder,Muse Spark Open
+irt,prime-intellect/intellect-3,,none,high,,False,ECI has INTELLECT-1 only,,,,,,,INTELLECT-1,internlm-7b
+irt,qwen/qwen-2.5-72b-instruct,Qwen2.5-72B,exact,high,,False,"Epoch pools base, instruct, and VL-instruct",127.21,124.47,129.8,18.0,2024-09-19,Alibaba,Qwen2.5-72B,Qwen2-72B
+irt,qwen/qwen-2.5-7b-instruct,,none,high,,False,,,,,,,,Qwen2.5-72B,Qwen-7B
+irt,qwen/qwen-2.5-coder-32b-instruct,Qwen2.5-Coder-32B,family,medium,T,True,Epoch scored the base Coder model,118.74,110.04,127.38,5.0,2024-09-18,Alibaba,Qwen2.5-Coder-32B,Qwen2.5-Coder-3B
+irt,qwen/qwen-plus,,none,medium,T,True,Hosted alias; underlying model unclear,,,,,,,Qwen3.7-Plus,Qwen 3.5 Plus (hosted 397B-A17B)
+irt,qwen/qwen-plus-2025-07-28,,none,high,,False,,,,,,,,Qwen2.5-Max,Qwen3-Max
+irt,qwen/qwen2.5-vl-72b-instruct,Qwen2.5-72B,family,medium,F,True,VL variant; Epoch's Qwen2.5-72B pools in some VL-72B results,127.21,124.47,129.8,18.0,2024-09-19,Alibaba,Qwen2.5-72B,Qwen2-72B
+irt,qwen/qwen3-14b,Qwen3-14B,exact,high,,False,Hybrid-thinking model; thinking mode may differ,136.08,133.42,138.55,5.0,2025-04-29,Alibaba,Qwen3-14B,Qwen-14B
+irt,qwen/qwen3-235b-a22b,Qwen3-235B-A22B,exact,high,,False,Hybrid-thinking model; thinking mode may differ,138.43,136.11,140.67,8.0,2025-04-28,Alibaba,Qwen3-235B-A22B,Qwen3-235B-A22B-Instruct (Jul 2025)
+irt,qwen/qwen3-235b-a22b-2507,Qwen3-235B-A22B-Instruct (Jul 2025),exact,high,,False,,138.07,135.66,140.24,7.0,2025-07-25,Alibaba,Qwen3-235B-A22B-Instruct (Jul 2025),Qwen3-235B-A22B
+irt,qwen/qwen3-30b-a3b,Qwen3-30B-A3B,exact,high,,False,Hybrid-thinking model,134.18,131.45,136.76,6.0,2025-04-29,Alibaba,Qwen3-30B-A3B,Qwen3.5-35B-A3B
+irt,qwen/qwen3-30b-a3b-instruct-2507,Qwen3-30B-A3B-Instruct (Jul 2025),exact,high,,False,,134.83,131.99,137.52,4.0,2025-07-29,Alibaba,Qwen3-30B-A3B-Instruct (Jul 2025),Qwen3-30B-A3B
+irt,qwen/qwen3-30b-a3b-thinking-2507,Qwen3-30B-A3B-Thinking (Jul 2025),exact,high,,False,,138.35,135.77,140.82,4.0,2025-07-30,Alibaba,Qwen3-30B-A3B-Thinking (Jul 2025),Qwen3-30B-A3B-Instruct (Jul 2025)
+irt,qwen/qwen3-32b,Qwen3-32B,exact,high,,False,Hybrid-thinking model,136.84,134.41,139.22,6.0,2025-04-29,Alibaba,Qwen3-32B,Qwen3-8B
+irt,qwen/qwen3-8b,Qwen3-8B,exact,high,,False,Hybrid-thinking model,132.08,129.06,134.78,5.0,2025-04-28,Alibaba,Qwen3-8B,Qwen3-32B
+irt,qwen/qwen3-coder,,none,high,,False,,,,,,,,Qwen2.5-Coder (7B),Qwen2.5-Coder-3B
+irt,qwen/qwen3-coder-30b-a3b-instruct,,none,high,,False,,,,,,,,Qwen3-30B-A3B,Qwen2.5-Coder-3B
+irt,qwen/qwen3-coder-flash,,none,high,,False,,,,,,,,Qwen 3.5 Flash (hosted 35B-A3B),Qwen 3.6 Flash
+irt,qwen/qwen3-coder-next,,none,high,,False,,,,,,,,Qwen2.5-Coder (7B),Qwen2.5-Coder-3B
+irt,qwen/qwen3-coder-plus,,none,high,,False,,,,,,,,Qwen3.7-Plus,Qwen 3.5 Plus (hosted 397B-A17B)
+irt,qwen/qwen3-next-80b-a3b-instruct,,none,high,,False,,,,,,,,Qwen3-30B-A3B,Qwen 3.8 Max
+irt,qwen/qwen3-vl-235b-a22b-instruct,,none,high,,False,VL model; could proxy with Qwen3-235B-A22B (family),,,,,,,Qwen3-235B-A22B,Qwen3-235B-A22B-Instruct (Jul 2025)
+irt,qwen/qwen3-vl-30b-a3b-instruct,,none,high,,False,VL model,,,,,,,Qwen3-30B-A3B,Qwen3.5-35B-A3B
+irt,qwen/qwen3-vl-32b-instruct,,none,high,,False,VL model,,,,,,,Qwen3-32B,Qwen2.5-72B
+irt,qwen/qwen3-vl-8b-instruct,,none,high,,False,VL model,,,,,,,Qwen3-8B,Qwen2.5-72B
+irt,qwen/qwen3.5-122b-a10b,,none,high,,False,,,,,,,,Qwen3.5 397B-A17B,Qwen3.5-35B-A3B
+irt,qwen/qwen3.5-27b,,none,high,,False,"ECI has Qwen3.6 27B / 3.8 27B, not 3.5 27B",,,,,,,Qwen3.6 27B,Qwen 3.8 27B
+irt,qwen/qwen3.5-35b-a3b,Qwen3.5-35B-A3B,exact,high,,False,,144.08,141.59,146.7,4.0,2026-02-24,Alibaba,Qwen3.5-35B-A3B,Qwen 3.6 35B-A3B
+irt,qwen/qwen3.5-397b-a17b,Qwen3.5 397B-A17B,exact,high,,False,,147.95,145.8,150.07,7.0,2026-02-13,Alibaba,Qwen3.5 397B-A17B,Qwen3.5-35B-A3B
+irt,qwen/qwen3.5-9b,Qwen3.5-9B,exact,high,,False,,139.48,137.26,141.69,5.0,2026-02-24,Alibaba,Qwen3.5-9B,Qwen3-8B
+irt,qwen/qwen3.5-flash-02-23,Qwen 3.5 Flash (hosted 35B-A3B),snapshot,medium,F,True,Dated hosted snapshot; Epoch scored undated qwen3.5-flash,143.87,142.01,145.75,9.0,2026-02-25,Alibaba,Qwen 3.5 Flash (hosted 35B-A3B),Qwen 3.6 Flash
+irt,qwen/qwen3.5-plus-02-15,Qwen 3.5 Plus (hosted 397B-A17B),snapshot,medium,F,True,Dated hosted snapshot; Epoch scored undated qwen3.5-plus,147.3,145.38,149.2,11.0,2026-02-16,Alibaba,Qwen 3.5 Plus (hosted 397B-A17B),Qwen3.7-Plus
+irt,qwen/qwen3.5-plus-20260420,Qwen 3.5 Plus (hosted 397B-A17B),snapshot,low,F,True,Later hosted snapshot (Apr 2026); may differ from what Epoch scored,147.3,145.38,149.2,11.0,2026-02-16,Alibaba,Qwen 3.5 Plus (hosted 397B-A17B),Qwen 3.6 Plus
+irt,qwen/qwen3.6-27b,Qwen3.6 27B,exact,high,,False,,146.78,144.68,148.89,6.0,2026-04-22,Alibaba,Qwen3.6 27B,Qwen 3.8 27B
+irt,qwen/qwen3.6-35b-a3b,Qwen 3.6 35B-A3B,exact,high,,False,,144.11,142.23,146.0,9.0,2026-04-14,Alibaba,Qwen 3.6 35B-A3B,Qwen3.5-35B-A3B
+irt,qwen/qwen3.6-flash,Qwen 3.6 Flash,exact,high,,False,,143.76,141.76,145.7,10.0,2026-04-27,Alibaba,Qwen 3.6 Flash,Qwen 3.5 Flash (hosted 35B-A3B)
+irt,qwen/qwen3.6-plus,Qwen 3.6 Plus,exact,high,,False,,148.91,146.96,150.92,10.0,2026-03-31,Alibaba,Qwen 3.6 Plus,Qwen3.7-Plus
+irt,rekaai/reka-edge,,none,high,,False,,,,,,,,DeepSeek-V3.2,Mistral Large
+irt,rekaai/reka-flash-3,,none,high,,False,,,,,,,,Gemini 3 Flash,Qwen 3.6 Flash
+irt,sao10k/l3-lunaris-8b,,none,high,,False,Community fine-tune,,,,,,,GPT-6 Luna,Llama 3-8B
+irt,stepfun/step-3.5-flash,,none,high,,False,,,,,,,,GLM-5.3-Flash,Gemini 3.5 Flash
+irt,stepfun/step-3.7-flash,,none,high,,False,,,,,,,,Gemini 3.7 Flash,Qwen 3.6 Flash
+irt,tencent/hunyuan-a13b-instruct,,none,high,,False,,,,,,,,Baichuan2-13B,vicuna-13b-v1.1
+irt,tencent/hy3-preview,,none,high,,False,,,,,,,,o1-preview,Qwen 3.6 Max (Preview)
+irt,thedrummer/rocinante-12b,,none,high,,False,Community fine-tune,,,,,,,Claude Instant,internlm-20b
+irt,upstage/solar-pro-3,,none,high,,False,,,,,,,,GPT-6 Sol,o3-pro
+irt,x-ai/grok-4.20,Grok 4.20,exact,high,,False,,152.3,150.58,154.09,15.0,2026-02-17,xAI,Grok 4.20,Grok 4.3 Beta
+irt,x-ai/grok-4.3,Grok 4.3 Beta,snapshot,medium,F,True,Epoch labels it Beta; same grok-4.3 id,149.91,147.94,151.92,11.0,2026-04-17,xAI,Grok 4.3 Beta,Grok 4
+irt,x-ai/grok-build-0.1,,none,high,,False,,,,,,,,Grok 4.20,Grok 4.3 Beta
+irt,xiaomi/mimo-v2-flash,,none,high,,False,,,,,,,,Gemini 3 Flash,Gemini 3.8 Flash
+irt,xiaomi/mimo-v2.5,,none,high,,False,,,,,,,,Qwen2.5-Max,Dolly 2.0-12b
+irt,xiaomi/mimo-v2.5-pro,,none,high,,False,,,,,,,,Gemini 1.5 Pro (May 2024),Gemini 2.5 Pro (Jun 2025)
+irt,z-ai/glm-4-32b,,none,high,,False,,,,,,,,GLM-5.3,GLM-5.2
+irt,z-ai/glm-4.5,,none,high,,False,,,,,,,,GLM-5.3,GLM-5.2
+irt,z-ai/glm-4.5-air,,none,high,,False,,,,,,,,GLM-5.3,GLM-5.3-Flash
+irt,z-ai/glm-4.5v,,none,high,,False,,,,,,,,GLM-5.3,GLM-5.2
+irt,z-ai/glm-4.6,,none,high,,False,,,,,,,,GLM-4.7,GLM-5.3
+irt,z-ai/glm-4.6v,,none,high,,False,,,,,,,,GLM-4.7,GLM-5.3
+irt,z-ai/glm-4.7,GLM-4.7,exact,high,,False,,143.36,141.4,145.27,11.0,2025-12-22,Z.ai (Zhipu AI),GLM-4.7,GLM-5.3
+irt,z-ai/glm-4.7-flash,,none,high,,False,,,,,,,,GLM-5.3-Flash,Gemini 3.7 Flash
+irt,z-ai/glm-5,GLM-5,exact,high,,False,,146.54,144.97,148.11,10.0,2026-02-11,Z.ai (Zhipu AI),GLM-5,GLM-5.3
+irt,z-ai/glm-5-turbo,,none,high,,False,,,,,,,,GPT-4 Turbo (Nov 2023),GLM-5
+irt,z-ai/glm-5.1,GLM-5.1,exact,high,,False,,150.73,148.77,152.77,11.0,2026-04-07,Z.ai (Zhipu AI),GLM-5.1,GLM-5.3
+irt,z-ai/glm-5v-turbo,,none,high,,False,,,,,,,,GPT-4 Turbo (Nov 2023),GPT-3.5 Turbo (Jan 2024)
+safetywashing_chat,Llama-2-13b-chat-hf,Llama 2-13B,exact,high,,False,Epoch pools base + chat,96.28,87.19,104.31,11.0,2023-07-18,Meta AI,Llama 2-13B,LLaMA-13B
+safetywashing_chat,Llama-2-70b-chat-hf,Llama 2-70B,exact,high,,False,Epoch pools base + chat,105.64,99.62,110.86,14.0,2023-07-18,Meta AI,Llama 2-70B,Llama 2-7B
+safetywashing_chat,Llama-2-7b-chat-hf,Llama 2-7B,family,medium,F,True,Epoch scored base only,82.8,70.34,93.04,10.0,2023-07-18,Meta AI,Llama 2-7B,Llama 2-70B
+safetywashing_chat,Meta-Llama-3-70B-Instruct,Llama 3-70B,exact,high,,False,Epoch pools base + instruct,121.34,117.67,124.75,7.0,2024-04-18,Meta AI,Llama 3-70B,Llama 3-8B
+safetywashing_chat,Meta-Llama-3-8B-Instruct,Llama 3-8B,exact,high,,False,Epoch pools base + instruct,109.0,103.32,113.95,10.0,2024-04-18,Meta AI,Llama 3-8B,Llama 3-70B
+safetywashing_chat,Mistral-7B-Instruct-v0.2,Mistral 7B v0.1,family,low,F,True,Different version (v0.2 instruct vs v0.1 base),102.56,94.84,109.26,10.0,2023-09-27,Mistral AI,Mistral 7B v0.1,Mixtral 8x7B
+safetywashing_chat,Mixtral-8x22B-Instruct-v0.1,Mixtral 8x22B,exact,high,,False,,118.66,114.34,122.54,6.0,2024-04-17,Mistral AI,Mixtral 8x22B,Mixtral 8x7B
+safetywashing_chat,Mixtral-8x7B-Instruct-v0.1,Mixtral 8x7B,exact,high,,False,,113.1,108.13,117.48,12.0,2023-12-11,Mistral AI,Mixtral 8x7B,Mixtral 8x22B
+safetywashing_chat,Qwen1.5-0.5B-Chat,,none,high,,False,No Qwen1.5 in ECI,,,,,,,Qwen2.5-Coder-0.5B,Qwen3.5-9B
+safetywashing_chat,Qwen1.5-1.8B-Chat,,none,high,,False,No Qwen1.5 in ECI (Qwen-1_8B is Qwen 1),,,,,,,Qwen-1_8B,Qwen3.5-9B
+safetywashing_chat,Qwen1.5-110B-Chat,,none,high,,False,,,,,,,,Qwen-14B,Qwen3-14B
+safetywashing_chat,Qwen1.5-14B-Chat,,none,high,,False,Qwen-14B is Qwen 1,,,,,,,Qwen-14B,Qwen3-14B
+safetywashing_chat,Qwen1.5-32B-Chat,,none,high,,False,,,,,,,,Qwen3-32B,Qwen3.6 27B
+safetywashing_chat,Qwen1.5-4B-Chat,,none,high,,False,,,,,,,,Qwen-14B,Qwen3-14B
+safetywashing_chat,Qwen1.5-72B-Chat,,none,high,,False,,,,,,,,Qwen2.5-72B,Qwen2-72B
+safetywashing_chat,Qwen1.5-7B-Chat,,none,high,,False,Qwen-7B is Qwen 1,,,,,,,Qwen2.5-72B,CodeQwen1.5-7B
+safetywashing_chat,Yi-34B-Chat,,none,high,,False,,,,,,,,Yi-9B,Yi 6B
+safetywashing_chat,Yi-6B-Chat,Yi 6B,exact,high,,False,Epoch pools base + chat,94.06,83.69,102.91,6.0,2023-11-22,01.AI,Yi 6B,Yi-9B
+safetywashing_chat,dbrx-instruct,,none,high,,False,,,,,,,,XGen-7B,Muse Wonder
+safetywashing_chat,deepseek-llm-67b-chat,,none,high,,False,,,,,,,,DeepSeek-V3.2,DeepSeek-V3.1
+safetywashing_chat,deepseek-llm-7b-chat,,none,high,,False,,,,,,,,DeepSeek-V3.2,DeepSeek-V3.1
+safetywashing_chat,falcon-180B-chat,Falcon-180B,family,medium,F,True,Epoch scored base only,106.92,98.04,115.21,8.0,2023-09-06,Technology Innovation Institute,Falcon-180B,Falcon-40B
+safetywashing_chat,falcon-40b-instruct,Falcon-40B,exact,high,,False,Epoch pools base + instruct,90.42,79.63,99.75,10.0,2023-05-25,Technology Innovation Institute,Falcon-40B,Falcon-180B
+safetywashing_chat,falcon-7b-instruct,Falcon-7B,family,medium,F,True,Epoch scored base only,72.84,57.82,85.82,10.0,2023-04-24,Technology Innovation Institute,Falcon-7B,Falcon-40B
+safetywashing_chat,gemma-1.1-2b-it,Gemma 2B,family,low,F,True,Gemma 1.1 instruct vs Gemma 1.0 base,75.36,60.81,87.85,8.0,2024-02-21,Google DeepMind,Gemma 2B,Gemma 2 27B
+safetywashing_chat,gemma-1.1-7b-it,Gemma 7B,family,low,F,True,Gemma 1.1 instruct vs Gemma 1.0 base,102.87,94.96,109.59,10.0,2024-02-21,Google DeepMind,Gemma 7B,Gemma 2 27B
+safetywashing_base,Mixtral-8x22B-v0.1,Mixtral 8x22B,exact,high,,False,,118.66,114.34,122.54,6.0,2024-04-17,Mistral AI,Mixtral 8x22B,Mixtral 8x7B
+safetywashing_base,Mistral-7B-v0.1,Mistral 7B v0.1,exact,high,,False,,102.56,94.84,109.26,10.0,2023-09-27,Mistral AI,Mistral 7B v0.1,Mixtral 8x7B
+safetywashing_base,Llama-2-13b-hf,Llama 2-13B,exact,high,,False,,96.28,87.19,104.31,11.0,2023-07-18,Meta AI,Llama 2-13B,LLaMA-13B
+safetywashing_base,Qwen1.5-72B,,none,high,,False,,,,,,,,Qwen2.5-72B,Qwen2-72B
+safetywashing_base,Qwen1.5-14B,,none,high,,False,,,,,,,,Qwen-14B,Qwen3-14B
+safetywashing_base,Yi-9B,Yi-9B,exact,high,,False,,102.06,90.22,112.03,4.0,2024-03-01,,Yi-9B,Yi 6B
+safetywashing_base,falcon-40b,Falcon-40B,exact,high,,False,,90.42,79.63,99.75,10.0,2023-05-25,Technology Innovation Institute,Falcon-40B,Falcon-180B
+safetywashing_base,Meta-Llama-3-70B,Llama 3-70B,exact,high,,False,,121.34,117.67,124.75,7.0,2024-04-18,Meta AI,Llama 3-70B,Llama 3-8B
+safetywashing_base,falcon-7b,Falcon-7B,exact,high,,False,,72.84,57.82,85.82,10.0,2023-04-24,Technology Innovation Institute,Falcon-7B,Falcon-40B
+safetywashing_base,Meta-Llama-3-8B,Llama 3-8B,exact,high,,False,,109.0,103.32,113.95,10.0,2024-04-18,Meta AI,Llama 3-8B,Llama 3-70B
+safetywashing_base,Qwen1.5-0.5B,,none,high,,False,,,,,,,,Qwen2.5-Coder-0.5B,Qwen3.5-9B
+safetywashing_base,dbrx-base,,none,high,,False,,,,,,,,Muse Wonder,XGen-7B
+safetywashing_base,deepseek-llm-67b-base,,none,high,,False,,,,,,,,DeepSeek-V3,DeepSeek Coder 6.7B
+safetywashing_base,Qwen1.5-1.8B,,none,high,,False,,,,,,,,Qwen-1_8B,Qwen3.5-9B
+safetywashing_base,Yi-6B,Yi 6B,exact,high,,False,,94.06,83.69,102.91,6.0,2023-11-22,01.AI,Yi 6B,Yi-9B
+safetywashing_base,Yi-34B,,none,high,,False,,,,,,,,Yi-9B,Yi 6B
+safetywashing_base,gemma-2b,Gemma 2B,exact,high,,False,,75.36,60.81,87.85,8.0,2024-02-21,Google DeepMind,Gemma 2B,Gemma 2 9B
+safetywashing_base,gemma-7b,Gemma 7B,exact,high,,False,,102.87,94.96,109.59,10.0,2024-02-21,Google DeepMind,Gemma 7B,Gemma 2B
+safetywashing_base,Llama-2-70b-hf,Llama 2-70B,exact,high,,False,,105.64,99.62,110.86,14.0,2023-07-18,Meta AI,Llama 2-70B,Llama 2-7B
+safetywashing_base,deepseek-llm-7b-base,,none,high,,False,,,,,,,,DeepSeek-V3,DeepSeek Coder 6.7B
+safetywashing_base,Llama-2-7b-hf,Llama 2-7B,exact,high,,False,,82.8,70.34,93.04,10.0,2023-07-18,Meta AI,Llama 2-7B,Llama 2-70B
+safetywashing_base,falcon-180B,Falcon-180B,exact,high,,False,,106.92,98.04,115.21,8.0,2023-09-06,Technology Innovation Institute,Falcon-180B,Falcon-40B
+safetywashing_base,Qwen1.5-4B,,none,high,,False,,,,,,,,Qwen-14B,Qwen3-14B
+safetywashing_base,Qwen1.5-110B,,none,high,,False,,,,,,,,Qwen-14B,Qwen3-14B
+safetywashing_base,Mixtral-8x7B-v0.1,Mixtral 8x7B,exact,high,,False,,113.1,108.13,117.48,12.0,2023-12-11,Mistral AI,Mixtral 8x7B,Mixtral 8x22B
+safetywashing_base,Qwen1.5-7B,,none,high,,False,,,,,,,,Qwen2.5-72B,CodeQwen1.5-7B
+safetywashing_base,Qwen1.5-32B,,none,high,,False,,,,,,,,Qwen3-32B,Qwen3.6 27B

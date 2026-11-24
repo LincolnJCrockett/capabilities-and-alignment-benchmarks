@@ -1,0 +1,8 @@
+benchmark,data,capability measure,rho,n
+"TruthfulQA, multiple choice (MC1)","Safetywashing, 2024 chat models",Safetywashing capabilities score,0.8117627063418175,26
+"TruthfulQA, free text (% truthful)","Safetywashing, 2024 chat models",Safetywashing capabilities score,0.3283173926613634,26
+"HarmBench, direct requests","Safetywashing, 2024 chat models",Safetywashing capabilities score,-0.18156950171335512,26
+"TruthfulQA, free text (BLEURT judge)","IRT data, primary sample (main analysis)",ECI,0.5209941829719725,61
+"TruthfulQA, free text (BLEURT judge)","IRT data, primary sample (as released)",ECI,-0.16689560439560439,64
+"HarmBench, direct requests (Claude Haiku judge)","IRT data, primary sample (main analysis)",ECI,0.39655459849958324,60
+"HarmBench, direct requests (Claude Haiku judge)","IRT data, primary sample (as released)",ECI,0.482815151780693,67

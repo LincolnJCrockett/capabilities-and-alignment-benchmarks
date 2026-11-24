@@ -1,0 +1,9 @@
+measure,n_released,n_main,median_eci_dropped,median_eci_kept,dropped
+HarmBench,67,60,146.01,138.39,anthropic/claude-sonnet-4.5; deepseek/deepseek-v3.2; deepseek/deepseek-v4-flash; openai/gpt-5-mini; openai/gpt-5-nano; qwen/qwen3-235b-a22b-2507; qwen/qwen3.5-9b
+SORRY-Bench,63,60,139.48,139.32999999999998,openai/gpt-5-nano; qwen/qwen3.5-35b-a3b; qwen/qwen3.5-9b
+AHB,61,50,146.54,137.45499999999998,moonshotai/kimi-k2.5; moonshotai/kimi-k2.6; openai/gpt-5-mini; openai/gpt-5-nano; qwen/qwen3.5-35b-a3b; qwen/qwen3.5-397b-a17b; qwen/qwen3.5-9b; qwen/qwen3.6-27b; qwen/qwen3.6-35b-a3b; z-ai/glm-5; z-ai/glm-5.1
+OR-Bench-Hard,63,59,141.42000000000002,138.43,openai/gpt-5-nano; qwen/qwen3.5-9b; z-ai/glm-4.7; z-ai/glm-5
+TruthfulQA,64,61,139.09,140.23,openai/gpt-5-nano; openai/gpt-oss-20b; qwen/qwen3.5-9b
+Do-Not-Answer,64,63,139.09,139.48,openai/gpt-5-nano
+AdvBench,64,63,139.09,139.48,openai/gpt-5-nano
+Health-ORSC,61,53,146.66,138.35,moonshotai/kimi-k2.6; openai/gpt-5-nano; qwen/qwen3.5-35b-a3b; qwen/qwen3.5-397b-a17b; qwen/qwen3.5-9b; qwen/qwen3.6-27b; z-ai/glm-5; z-ai/glm-5.1

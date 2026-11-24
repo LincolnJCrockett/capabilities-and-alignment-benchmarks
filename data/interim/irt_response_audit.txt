@@ -1,0 +1,138 @@
+                   n  truncated  empty   error  pct_trunc  pct_empty
+dataset                                                             
+advbench       98606       6413   2583    3017       6.50       2.62
+ahb           633600      38560  26043  411638       6.09       4.11
+donotanswer   180557      17024   6914    5070       9.43       3.83
+harmbench      60435       6012   3053    4299       9.95       5.05
+health_orsc    38400       7546   3975    3808      19.65      10.35
+orbench_hard  250610      48943  17908   18331      19.53       7.15
+sorrybench     84480       9687   4146    5849      11.47       4.91
+truthfulqa    156542      16722  10512    5020      10.68       6.72 
+
+models with >5% truncated or empty responses:
+                                                 n  truncated  empty  pct_bad
+model                                                                        
+qwen/qwen3.5-9b                               5255        856   3536     83.6
+nvidia/nemotron-3-super-120b-a12b             5255       3652    154     72.4
+google/gemini-2.5-pro                         8135       5653    116     70.9
+openai/gpt-5-nano                             8135        139   5177     65.3
+z-ai/glm-4.7-flash                            8135       1378   3524     60.3
+rekaai/reka-flash-3                           8135       1388   3451     59.5
+z-ai/glm-5v-turbo                             8135       1803   3017     59.3
+z-ai/glm-5                                    8135       1373   3109     55.1
+z-ai/glm-4.6v                                 8135        842   3630     55.0
+stepfun/step-3.7-flash                        8135        606   3685     52.7
+mistralai/mistral-large                       5255       2697      0     51.3
+openai/gpt-5-mini                             8135       2807   1286     50.3
+z-ai/glm-5-turbo                              8135       1584   2420     49.2
+qwen/qwen3.5-35b-a3b                          8135        881   2928     46.8
+nvidia/llama-3.3-nemotron-super-49b-v1.5      8135       2479   1255     45.9
+z-ai/glm-5.1                                  8135       1738   1975     45.6
+z-ai/glm-4.5-air                              7615       2792    546     43.8
+google/gemma-3-4b-it                          8135       3512      2     43.2
+z-ai/glm-4.5                                  8135       3124    358     42.8
+google/gemma-3-12b-it                         8135       3443      0     42.3
+tencent/hy3-preview                           8135        912   2504     42.0
+z-ai/glm-4.7                                  8135       1274   2145     42.0
+z-ai/glm-4.6                                  8135        953   2405     41.3
+qwen/qwen3-30b-a3b                            5255       1728    350     39.5
+google/gemma-3-27b-it                         8135       3185      3     39.2
+mistralai/ministral-14b-2512                  8135       3139      1     38.6
+mistralai/ministral-8b-2512                   8135       3113      0     38.3
+qwen/qwen3.6-27b                              8135       1126   1951     37.8
+arcee-ai/trinity-mini                         8135       2848    201     37.5
+nvidia/nemotron-3-nano-30b-a3b                8135       2283    591     35.3
+qwen/qwen3.6-35b-a3b                          8135       1000   1843     34.9
+nousresearch/hermes-3-llama-3.1-70b           8135       2571    224     34.4
+mistralai/ministral-3b-2512                   8135       2769      0     34.0
+mistralai/mistral-large-2512                  8135       2689      0     33.1
+mistralai/mistral-medium-3.1                  8135       2672      0     32.8
+z-ai/glm-4.5v                                 7615       1402   1090     32.7
+prime-intellect/intellect-3                   8135       2316    344     32.7
+qwen/qwen3-14b                                8135       2302    334     32.4
+qwen/qwen3.5-397b-a17b                        8135        716   1827     31.3
+upstage/solar-pro-3                           5255       1646      0     31.3
+openai/o3-mini                                8135       1054   1485     31.2
+qwen/qwen3-32b                                8135       2205    325     31.1
+deepseek/deepseek-r1-distill-llama-70b        8135       1995    453     30.1
+qwen/qwen3.5-27b                              8135        903   1494     29.5
+stepfun/step-3.5-flash                        8135       1779    609     29.4
+moonshotai/kimi-k2.6                          8135        879   1317     27.0
+minimax/minimax-m2.7                          8135        375   1801     26.7
+mistralai/mixtral-8x22b-instruct              5255       1373      0     26.1
+openai/o4-mini                                8135       1388    643     25.0
+openai/gpt-oss-20b                            8135        752   1194     23.9
+qwen/qwen3.5-122b-a10b                        8135        800   1065     22.9
+minimax/minimax-m2                            8135        546   1303     22.7
+google/gemini-2.5-flash                       8135       1830     11     22.6
+google/gemma-3n-e4b-it                        8135       1796      0     22.1
+minimax/minimax-m2.1                          8135        579   1112     20.8
+deepseek/deepseek-v4-pro                      8135       1143    531     20.6
+google/gemini-2.5-flash-lite                  8135       1666     11     20.6
+minimax/minimax-m2.5                          8135        215   1456     20.5
+moonshotai/kimi-k2.5                          8135        903    720     20.0
+openai/gpt-oss-120b                           8135       1533     69     19.7
+qwen/qwen3-30b-a3b-thinking-2507              8135       1569      3     19.3
+deepseek/deepseek-r1-distill-qwen-32b         8135        916    617     18.8
+mistralai/mistral-saba                        8135       1515      3     18.7
+mistralai/mistral-small-2603                  8135       1525      0     18.7
+anthropic/claude-sonnet-4.5                   8135        146   1322     18.0
+mistralai/devstral-2512                       8135       1460      0     17.9
+anthropic/claude-opus-4                         86          0     15     17.4
+google/gemini-2.5-flash-lite-preview-09-2025  8135       1355     11     16.8
+bytedance-seed/seed-1.6                       8135       1057     67     13.8
+amazon/nova-2-lite-v1                         8135       1069      0     13.1
+deepseek/deepseek-chat-v3.1                   8135       1048      1     12.9
+x-ai/grok-build-0.1                           8135        969     80     12.9
+x-ai/grok-4.20                                8135        878     61     11.5
+deepseek/deepseek-v3.1-terminus               8135        908      0     11.2
+minimax/minimax-m2-her                        8135        907      5     11.2
+qwen/qwen3-vl-8b-instruct                     8135        911      0     11.2
+qwen/qwen3-vl-32b-instruct                    8135        900      0     11.1
+deepseek/deepseek-v4-flash                    6816        622    103     10.6
+qwen/qwen3-next-80b-a3b-instruct              8135        815      3     10.1
+qwen/qwen3-coder-next                         8135        775      0      9.5
+xiaomi/mimo-v2.5                              8135        463    252      8.8
+qwen/qwen-plus                                8135        692      0      8.5
+qwen/qwen3.5-flash-02-23                      8135        560     89      8.0
+qwen/qwen3-vl-30b-a3b-instruct                8135        653      0      8.0
+kwaipilot/kat-coder-pro-v2                    8135        644      0      7.9
+openai/gpt-5.4-nano                           8135        625      0      7.7
+nvidia/nemotron-nano-9b-v2                    8135        446    175      7.6
+qwen/qwen3.5-plus-02-15                       8135        613      0      7.5
+qwen/qwen3.5-plus-20260420                    8135        584     17      7.4
+qwen/qwen3-vl-235b-a22b-instruct              8135        600      0      7.4
+qwen/qwen3-30b-a3b-instruct-2507              8135        600      0      7.4
+bytedance-seed/seed-1.6-flash                 8135        546     49      7.3
+qwen/qwen3.6-flash                            8135        571      0      7.0
+deepseek/deepseek-v3.2-exp                    8135        543      0      6.7
+qwen/qwen3.6-plus                             8135        511      0      6.3
+xiaomi/mimo-v2.5-pro                          8135        450     56      6.2
+deepseek/deepseek-v3.2                        8135        485      3      6.0
+bytedance-seed/seed-2.0-mini                  5255        304      4      5.9
+cohere/command-a                              2888        169      0      5.9
+inclusionai/ling-2.6-1t                       8135        474      0      5.8
+qwen/qwen-plus-2025-07-28                     8135        469      0      5.8
+qwen/qwen3-235b-a22b                          8135        442     22      5.7
+qwen/qwen3-235b-a22b-2507                     8135        434      3      5.4
+moonshotai/kimi-k2-0905                       8135        435      6      5.4 
+
+matrix coding of truncated/empty cells (1 = safe/desired):
+value                               0.0    1.0  NaN
+kind                dataset                        
+empty               advbench        555   2028    0
+                    ahb               8  16671    0
+                    donotanswer    3903   3011    0
+                    harmbench         0   3053    0
+                    health_orsc     243   3732    0
+                    orbench_hard  17786    122    0
+                    sorrybench      163   3980    3
+                    truthfulqa    10122    390    0
+truncated_with_text advbench       1585   4828    0
+                    ahb            2281  28136    0
+                    donotanswer    4868  12152    4
+                    harmbench      2319   3693    0
+                    health_orsc    5460   2078    0
+                    orbench_hard   9899  39044    0
+                    sorrybench     6194   3489    4
+                    truthfulqa     7190   9532    0

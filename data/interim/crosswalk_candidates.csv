@@ -1,0 +1,246 @@
+source,source_model,cand1,cand1_alias,cand1_score,cand2,cand2_alias,cand2_score,cand3,cand3_alias,cand3_score
+irt,amazon/nova-2-lite-v1,GPT-4o (Nov 2024),GPT-4o (Nov 2024),53.8,PaLM 2-L,PaLM 2-L,52.6,internlm-20b,internlm-20b,52.2
+irt,amazon/nova-lite-v1,Mistral NeMo,Mistral NeMo,47.6,Claude Instant,Claude Instant,43.5,GPT-6 Luna,GPT-6 Luna,42.1
+irt,amazon/nova-micro-v1,Mistral NeMo,Mistral NeMo,54.5,o4-mini,o4-mini,47.1,o3-mini,o3-mini,47.1
+irt,anthropic/claude-3-haiku,Claude 3 Haiku,Claude 3 Haiku,100.0,Claude 3.5 Haiku,Claude 3.5 Haiku,93.3,Claude Haiku 5.5,Claude Haiku 5.5,86.7
+irt,anthropic/claude-3.5-haiku,Claude 3.5 Haiku,Claude 3.5 Haiku,100.0,Claude Haiku 5.5,Claude Haiku 5.5,93.8,Claude Haiku 4.5,Claude Haiku 4.5,93.8
+irt,anthropic/claude-haiku-4.5,Claude Haiku 4.5,Claude Haiku 4.5,100.0,Claude Haiku 5.5,Claude Haiku 5.5,93.8,Claude 3.5 Haiku,Claude 3.5 Haiku,93.8
+irt,anthropic/claude-opus-4,Claude Opus 4,Claude Opus 4,100.0,Claude Opus 4.8,Claude Opus 4.8,92.9,Claude Opus 4.7,Claude Opus 4.7,92.9
+irt,anthropic/claude-sonnet-4,Claude Sonnet 4,Claude Sonnet 4,100.0,Claude Sonnet 4.6,Claude Sonnet 4.6,93.8,Claude Sonnet 4.5,Claude Sonnet 4.5,93.8
+irt,anthropic/claude-sonnet-4.5,Claude Sonnet 4.5,Claude Sonnet 4.5,100.0,Claude Sonnet 5.5,Claude Sonnet 5.5,94.1,Claude Sonnet 4.6,Claude Sonnet 4.6,94.1
+irt,arcee-ai/trinity-mini,o4-mini,o4-mini,52.6,o3-mini,o3-mini,52.6,o1-mini,o1-mini,52.6
+irt,bytedance-seed/seed-1.6,GPT-6.1 Sol,GPT-6.1 Sol,52.6,GPT-6.1 Terra,GPT-6.1 Terra,47.6,Qwen 3.6 Plus,Qwen 3.6 Plus,47.6
+irt,bytedance-seed/seed-1.6-flash,Qwen 3.6 Flash,Qwen 3.6 Flash,71.4,Gemini 3.6 Flash,Gemini 3.6 Flash,66.7,Gemini 1.5 Flash (May 2024),gemini-1.5-flash-001,66.7
+irt,bytedance-seed/seed-2.0-lite,Claude 2,claude-2.0,52.2,Gemini 2.0 Flash (Feb 2025),gemini-2.0-flash-001,48.3,DeepSeek-R1 (May 2025),DeepSeek-R1-0528,48.3
+irt,bytedance-seed/seed-2.0-mini,Gemini 2.0 Pro,Gemini 2.0 Pro,66.7,o1-mini,o1-mini-2024-09-12_unknown,58.1,o3-mini,o3-mini-2025-01-31_high,58.1
+irt,bytedance/ui-tars-1.5-7b,Mistral 7B v0.1,Mistral 7B v0.1,55.2,Gemini 1.5 Flash (May 2024),gemini-1.5-flash-001,53.3,Llama 3.1-70B,Llama 3.1-70B,51.9
+irt,cohere/command-a,Claude 2,Claude 2,47.1,Gemma 7B,Gemma 7B,47.1,Gemma 2B,Gemma 2B,47.1
+irt,cohere/command-r-08-2024,GPT-4o (Aug 2024),gpt-4o-2024-08-06,58.8,o1-mini,o1-mini-2024-09-12_unknown,57.1,GPT-4o mini,gpt-4o-mini-2024-07-18,56.4
+irt,cohere/command-r7b-12-2024,o1-mini,o1-mini-2024-09-12_unknown,59.5,Grok-2 (Dec 2024),Grok-2 (Dec 2024),58.8,Gemini 1.5 Pro (May 2024),Gemini 1.5 Pro (May 2024),57.1
+irt,deepseek/deepseek-chat,DeepSeek-R1,DeepSeek-R1,84.2,DeepSeek-V3,DeepSeek-V3,84.2,"DeepSeek-V2 (MoE-236B, May 2024)",DeepSeek-V2,84.2
+irt,deepseek/deepseek-chat-v3,DeepSeek-V3,DeepSeek-V3,100.0,DeepSeek-V3.2,DeepSeek-V3.2,91.7,DeepSeek-V3.1,DeepSeek-V3.1,91.7
+irt,deepseek/deepseek-chat-v3-0324,DeepSeek-V3 (Mar 2025),DeepSeek-V3-0324,100.0,DeepSeek-V3.2,DeepSeek-V3.2,89.7,DeepSeek-V3.1,DeepSeek-V3.1,82.8
+irt,deepseek/deepseek-chat-v3.1,DeepSeek-V3.1,DeepSeek-V3.1,100.0,DeepSeek-V3.2,DeepSeek-V3.2,92.3,DeepSeek-V3,DeepSeek-V3,91.7
+irt,deepseek/deepseek-r1-distill-llama-70b,DeepSeek-R1 (May 2025),DeepSeek-R1 (May 2025),65.3,DeepSeek-V3 (Mar 2025),DeepSeek-V3 (Mar 2025),57.1,DeepSeek-R1,DeepSeek-R1,55.0
+irt,deepseek/deepseek-r1-distill-qwen-32b,DeepSeek-R1 (May 2025),DeepSeek-R1-0528,59.1,DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp,57.8,DeepSeek-R1,DeepSeek-R1,56.4
+irt,deepseek/deepseek-v3.1-terminus,DeepSeek-V3.1,DeepSeek-V3.1_thinking,77.3,DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp,71.8,DeepSeek-V3.2,DeepSeek-V3.2,68.6
+irt,deepseek/deepseek-v3.2,DeepSeek-V3.2,DeepSeek-V3.2,100.0,DeepSeek-V3.1,DeepSeek-V3.1,92.3,DeepSeek-V3,DeepSeek-V3,91.7
+irt,deepseek/deepseek-v3.2-exp,DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp,100.0,DeepSeek-V3.2,DeepSeek-V3.2,86.7,DeepSeek-V3.1,DeepSeek-V3.1,80.0
+irt,deepseek/deepseek-v4-flash,DeepSeek-V4-Flash,DeepSeek-V4-Flash,100.0,DeepSeek V4.1 Flash,DeepSeek V4.1 Flash,94.4,DeepSeek V4 Flash 0731,DeepSeek V4 Flash 0731,87.2
+irt,deepseek/deepseek-v4-pro,DeepSeek-V4-Pro,DeepSeek-V4-Pro,100.0,DeepSeek V4 Pro 0813,DeepSeek V4 Pro 0813,85.7,DeepSeek-R1,DeepSeek-R1,76.9
+irt,essentialai/rnj-1-instruct,Qwen-14B,Qwen-14B,46.2,Qwen3-14B,Qwen3-14B,42.9,Qwen-1_8B,Qwen-1_8B,42.9
+irt,google/gemini-2.0-flash-001,Gemini 2.0 Flash (Feb 2025),gemini-2.0-flash-001,100.0,Gemini 3.8 Flash,Gemini 3.8 Flash,87.5,Gemini 3.7 Flash,Gemini 3.7 Flash,87.5
+irt,google/gemini-2.0-flash-lite-001,Gemini 3.5 Flash-Lite,Gemini 3.5 Flash-Lite,90.5,Gemini 3.1 Flash-Lite,Gemini 3.1 Flash-Lite,90.5,Gemini 2.0 Flash (Feb 2025),gemini-2.0-flash-001,86.5
+irt,google/gemini-2.5-flash,Gemini 2.5 Flash (Jun 2025),gemini-2.5-flash,100.0,Gemini 3.5 Flash,Gemini 3.5 Flash,93.8,Gemini 1.5 Flash (May 2024),gemini-1.5-flash-001,93.8
+irt,google/gemini-2.5-flash-lite,Gemini 3.5 Flash-Lite,Gemini 3.5 Flash-Lite,95.2,Gemini 3.1 Flash-Lite,Gemini 3.1 Flash-Lite,90.5,Gemini 2.5 Flash (Jun 2025),gemini-2.5-flash,86.5
+irt,google/gemini-2.5-flash-lite-preview-09-2025,Gemini 2.5 Flash (Sep 2025),gemini-2.5-flash-preview-09-2025_16k,92.8,Gemini 2.5 Flash-Lite (Jun 2025),gemini-2.5-flash-lite-preview-06-17_16K,88.9,Gemini 2.5 Flash (May 2025),gemini-2.5-flash-preview-05-20_23K,86.6
+irt,google/gemini-2.5-pro,Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro_32K,100.0,Gemini 1.5 Pro (May 2024),gemini-1.5-pro-001,92.9,Gemini 1.5 Pro (Sept 2024),gemini-1.5-pro-002,87.5
+irt,google/gemini-3-flash-preview,Gemini 3 Flash,gemini-3-flash-preview,100.0,Gemini 2.5 Flash (Apr 2025),gemini-2.5-flash-preview-04-17,80.8,Gemini 2.5 Flash (May 2025),gemini-2.5-flash-preview-05-20_23K,80.8
+irt,google/gemini-3.1-flash-lite,Gemini 3.1 Flash-Lite,Gemini 3.1 Flash-Lite,100.0,Gemini 3.5 Flash-Lite,Gemini 3.5 Flash-Lite,90.5,Gemini 1.5 Flash (May 2024),gemini-1.5-flash-001,81.1
+irt,google/gemini-3.1-flash-lite-preview,Gemini 2.5 Flash-Lite (Jun 2025),gemini-2.5-flash-lite-preview-06-17_16K,87.5,Gemini 3 Flash,gemini-3-flash-preview,86.3,Gemini 3.1 Flash-Lite,Gemini 3.1 Flash-Lite,84.0
+irt,google/gemma-2-27b-it,Gemma 2 27B,Gemma 2 27B,100.0,Gemma 2 9B,Gemma 2 9B,85.7,Gemma 7B,Gemma 7B,84.2
+irt,google/gemma-3-12b-it,Gemma 3 27B,Gemma 3 27B,90.9,Gemma 2B,Gemma 2B,84.2,Gemma 4 31B IT,Gemma 4 31B IT,81.8
+irt,google/gemma-3-27b-it,Gemma 3 27B,Gemma 3 27B,100.0,Gemma 7B,Gemma 7B,84.2,Gemma 2B,Gemma 2B,84.2
+irt,google/gemma-3-4b-it,Gemma 4 31B IT,Gemma 4 31B IT,85.7,Gemma 2 9B,Gemma 2 9B,80.0,Gemma 7B,Gemma 7B,77.8
+irt,google/gemma-3n-e4b-it,Gemma 4 31B IT,Gemma 4 31B IT,78.3,Gemma 2 9B,Gemma 2 9B,72.7,Gemma 7B,Gemma 7B,70.0
+irt,google/gemma-4-26b-a4b-it,Gemma 4 26B A4B,Gemma 4 26B A4B,100.0,Gemma 2 9B,Gemma 2 9B,72.0,Gemma 2B,Gemma 2B,69.6
+irt,google/gemma-4-31b-it,Gemma 4 31B IT,Gemma 4 31B IT,100.0,Gemma 7B,Gemma 7B,73.7,Gemma 2B,Gemma 2B,73.7
+irt,gryphe/mythomax-l2-13b,Llama 2-13B,Llama 2-13B,61.5,LLaMA-13B,LLaMA-13B,58.3,Gemma 4 31B IT,Gemma 4 31B IT,53.8
+irt,ibm-granite/granite-4.0-h-micro,Mistral Large 4 Preview,mistral-large-4-0_unknown,55.6,Mistral Large 4,mistral-large-4-0-oss_high,55.0,Gemini 2.0 Pro,Gemini 2.0 Pro,54.5
+irt,ibm-granite/granite-4.1-8b,GPT-4.1,GPT-4.1,57.1,GPT-4.1 mini,GPT-4.1 mini,53.8,GPT-4.1 nano,GPT-4.1 nano,53.8
+irt,inclusionai/ling-2.6-1t,GPT-4.1 mini,GPT-4.1 mini,52.2,Falcon 2 11B,Falcon 2 11B,52.2,Claude Instant,claude-instant-1.2,48.3
+irt,inclusionai/ling-2.6-flash,Gemini 3.6 Flash,Gemini 3.6 Flash,73.3,Gemini 2.5 Flash (Jun 2025),gemini-2.5-flash,73.3,Qwen 3.6 Flash,Qwen 3.6 Flash,71.4
+irt,inflection/inflection-3-pi,phi-3-mini 3.8B,Phi-3-mini-4k-instruct,57.1,Gemini 3 Flash,Gemini 3 Flash,55.2,INTELLECT-1,INTELLECT-1,53.8
+irt,inflection/inflection-3-productivity,Gemini 3 Flash,gemini-3-flash-preview,51.1,Nemotron 3 Ultra,Nemotron 3 Ultra,48.8,Gemini 3 Pro,Gemini 3 Pro,48.6
+irt,kwaipilot/kat-coder-pro-v2,DeepSeek-V4-Pro,DeepSeek-V4-Pro,58.1,DeepSeek-Coder-V2-Lite-Base,DeepSeek-Coder-V2-Lite-Base,51.2,DeepSeek V4 Pro 0813,DeepSeek V4 Pro 0813,50.0
+irt,liquid/lfm-2-24b-a2b,Llama 2-34B,Llama 2-34B,58.3,Gemma 4 26B A4B,Gemma 4 26B A4B,57.1,PaLM 2-L,PaLM 2-L,57.1
+irt,liquid/lfm-2-24b-a2b-20260224,Qwen3-235B-A22B-Instruct (Jul 2025),Qwen3-235B-A22B-Instruct (Jul 2025),52.2,GPT-4o (Nov 2024),gpt-4o-2024-11-20,51.3,Gemma 4 26B A4B,Gemma 4 26B A4B,48.6
+irt,meta-llama/llama-3-70b-instruct,Llama 3-70B,Llama 3-70B,100.0,Llama 3.3 70B,Llama 3.3 70B,91.7,Llama 3.1-70B,Llama 3.1-70B,91.7
+irt,meta-llama/llama-3-8b-instruct,Llama 3-8B,Llama 3-8B,100.0,Llama 3.1-8B,Llama 3.1-8B,90.9,Llama 3-70B,Llama 3-70B,85.7
+irt,meta-llama/llama-3.1-70b-instruct,Llama 3.1-70B,Llama 3.1-70B,100.0,Llama 3.3 70B,Llama 3.3 70B,92.3,Llama 3-70B,Llama 3-70B,91.7
+irt,meta-llama/llama-3.1-8b-instruct,Llama 3.1-8B,Llama 3.1-8B,100.0,Llama 3-8B,Llama 3-8B,90.9,Llama 3.1-70B,Llama 3.1-70B,88.0
+irt,meta-llama/llama-3.2-11b-vision-instruct,Llama 3.2 90B,Llama-3.2-90B-Vision-Instruct,80.0,Llama 2-13B,Llama 2-13B,64.5,Llama 4 Scout,Llama-4-Scout-17B-16E-Instruct,63.4
+irt,meta-llama/llama-3.2-1b-instruct,Llama 2-13B,Llama 2-13B,87.0,Llama 2-34B,Llama 2-34B,78.3,LLaMA-13B,LLaMA-13B,76.2
+irt,meta-llama/llama-3.2-3b-instruct,Llama 3.2 90B,Llama 3.2 90B,88.0,Llama 2-34B,Llama 2-34B,87.0,LLaMA-33B,LLaMA-33B,85.7
+irt,meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B,Llama 3.3 70B,100.0,Llama 3.1-70B,Llama 3.1-70B,92.3,Llama 3-70B,Llama 3-70B,91.7
+irt,meta-llama/llama-4-maverick,Llama 4 Maverick,Llama 4 Maverick,100.0,Llama 4 Scout,Llama 4 Scout,62.1,Llama 3-8B,Meta-Llama-3-8B-Instruct,58.1
+irt,meta-llama/llama-4-scout,Llama 4 Scout,Llama 4 Scout,100.0,Llama 4 Maverick,Llama 4 Maverick,62.1,open_llama_7b,open_llama_7b,61.5
+irt,meta-llama/llama-guard-4-12b,Llama 2-13B,Llama 2-13B,64.3,Llama 2-34B,Llama 2-34B,64.3,Llama 3.1-8B,Llama 3.1-8B,62.1
+irt,microsoft/phi-4,Phi-4,Phi-4,100.0,Phi-2,Phi-2,80.0,Phi-1.5,Phi-1.5,66.7
+irt,microsoft/phi-4-mini-instruct,phi-3-mini 3.8B,Phi-3-mini-4k-instruct,87.0,Phi-4,Phi-4,66.7,Gemini 3 Pro,Gemini 3 Pro,63.6
+irt,microsoft/wizardlm-2-8x22b,Mixtral 8x22B,Mixtral 8x22B,62.1,PaLM 2-L,PaLM 2-L,50.0,Mixtral 8x7B,Mixtral 8x7B,50.0
+irt,minimax/minimax-01,MiniMax-M3,MiniMax-M3,80.0,GPT-4.1 mini,GPT-4.1 mini,54.5,Gemini 3.1 Pro,Gemini 3.1 Pro,50.0
+irt,minimax/minimax-m2,MiniMax-M3,MiniMax-M3,90.0,Gemma 2B,Gemma 2B,55.6,GPT-5 mini,GPT-5 mini,50.0
+irt,minimax/minimax-m2-her,MiniMax-M3,MiniMax-M3,75.0,GPT-5 mini,GPT-5 mini,50.0,Gemini 2.0 Pro,Gemini 2.0 Pro,50.0
+irt,minimax/minimax-m2.1,MiniMax-M3,MiniMax-M3,81.8,GPT-4.1 mini,GPT-4.1 mini,58.3,Gemini 1.5 Pro (May 2024),Gemini 1.5 Pro (May 2024),57.1
+irt,minimax/minimax-m2.5,MiniMax-M3,MiniMax-M3,81.8,GPT-5 mini,GPT-5 mini,63.6,GPT-5.4 Mini,GPT-5.4 Mini,58.3
+irt,minimax/minimax-m2.7,MiniMax-M3,MiniMax-M3,81.8,GPT-5 mini,GPT-5 mini,54.5,Gemini 2.0 Pro,Gemini 2.0 Pro,53.8
+irt,mistralai/codestral-2508,Mistral Medium 3,mistral-medium-2505,60.6,Mistral Large,mistral-large-2402,56.2,Mistral Large 2 (Jul 2024),mistral-large-2407,56.2
+irt,mistralai/devstral-2512,Mistral Large,mistral-large-2402,58.1,Mistral Medium 3,mistral-medium-2505,56.2,Mixtral 8x22B,Mixtral 8x22B,53.8
+irt,mistralai/devstral-small,Mistral NeMo,Mistral NeMo,53.8,Inkling-Small,Inkling-Small,51.9,Mistral Large 4,mistral-large-4-0-oss_high,45.7
+irt,mistralai/ministral-14b-2512,Mistral Medium 3.5,Mistral Medium 3.5,61.1,Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,61.1,Mistral Large 4,Mistral Large 4,60.6
+irt,mistralai/ministral-3b-2512,Mistral 7B v0.1,Mistral 7B v0.1,68.8,Mixtral 8x22B,Mixtral 8x22B,66.7,Mistral Large,mistral-large-2402,62.9
+irt,mistralai/ministral-8b-2512,Mistral 7B v0.1,Mistral 7B v0.1,68.8,Mixtral 8x22B,Mixtral 8x22B,66.7,Mixtral 8x7B,Mixtral-8x7B-v0.1,64.7
+irt,mistralai/mistral-7b-instruct-v0.1,Mistral 7B v0.1,Mistral 7B v0.1,100.0,Mixtral 8x7B,Mixtral-8x7B-v0.1,87.5,Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,78.8
+irt,mistralai/mistral-large,Mistral Large,Mistral Large,100.0,Mistral Large 4,Mistral Large 4,92.9,Mistral Large 4 Preview,mistral-large-4-0_unknown,86.7
+irt,mistralai/mistral-large-2512,Mistral Large,mistral-large-2402,88.9,Mistral Large 4,Mistral Large 4,84.8,Mistral Large 2 (Jul 2024),mistral-large-2407,83.3
+irt,mistralai/mistral-medium-3,Mistral Medium 3,Mistral Medium 3,100.0,Mistral Medium 3.5,Mistral Medium 3.5,94.1,Mistral Large 4,Mistral Large 4,64.5
+irt,mistralai/mistral-medium-3.1,Mistral Medium 3,Mistral Medium 3,94.1,Mistral Medium 3.5,Mistral Medium 3.5,88.9,phi-3-medium 14B,phi-3-medium 14B,70.6
+irt,mistralai/mistral-nemo,Mistral NeMo,Mistral NeMo,100.0,Mistral 7B v0.1,Mistral 7B v0.1,59.3,Mistral Large,Mistral Large,56.0
+irt,mistralai/mistral-saba,Mistral NeMo,Mistral NeMo,66.7,Mistral 7B v0.1,Mistral 7B v0.1,59.3,Mistral Large,Mistral Large,56.0
+irt,mistralai/mistral-small-24b-instruct-2501,Mistral NeMo,Mistral-Nemo-Instruct-2407,66.7,phi-3-small 7.4B,phi-3-small 7.4B,57.9,Mistral Large 4,mistral-large-4-0-oss_high,55.8
+irt,mistralai/mistral-small-2603,Mistral NeMo,Mistral-Nemo-Instruct-2407,68.6,Mistral Medium 3.5,mistral-medium-2604,59.5,Mistral Large 4,mistral-large-4-0-oss_high,56.4
+irt,mistralai/mistral-small-3.1-24b-instruct,Mistral 7B v0.1,Mistral 7B v0.1,66.7,phi-3-small 7.4B,phi-3-small 7.4B,64.9,Mistral NeMo,Mistral-Nemo-Instruct-2407,63.2
+irt,mistralai/mistral-small-3.2-24b-instruct,phi-3-small 7.4B,phi-3-small 7.4B,64.9,Mistral NeMo,Mistral-Nemo-Instruct-2407,63.2,Mistral Large 4,mistral-large-4-0-oss_high,61.9
+irt,mistralai/mixtral-8x22b-instruct,Mixtral 8x22B,Mixtral 8x22B,100.0,Mixtral 8x7B,Mixtral 8x7B,88.0,Mistral Large,mistral-large-2402,58.1
+irt,mistralai/voxtral-small-24b-2507,Mistral Large 2 (Jul 2024),mistral-large-2407,55.0,phi-3-small 7.4B,phi-3-small 7.4B,52.6,Mixtral 8x22B,Mixtral 8x22B,51.4
+irt,moonshotai/kimi-k2,Kimi K2 (Jul 2025),Kimi-K2-Instruct,100.0,Kimi K2.6,Kimi K2.6,87.5,Kimi K2.5,Kimi K2.5,87.5
+irt,moonshotai/kimi-k2-0905,Kimi K2.5,Kimi K2.5,85.7,Kimi K2.6,Kimi K2.6,76.2,Kimi K2 (Jul 2025),Kimi-K2-Instruct,73.7
+irt,moonshotai/kimi-k2.5,Kimi K2.5,Kimi K2.5,100.0,Kimi K2.6,Kimi K2.6,88.9,Kimi K2 (Jul 2025),Kimi-K2-Instruct,87.5
+irt,moonshotai/kimi-k2.6,Kimi K2.6,Kimi K2.6,100.0,Kimi K2.5,Kimi K2.5,88.9,Kimi K2 (Jul 2025),Kimi-K2-Instruct,87.5
+irt,nex-agi/deepseek-v3.1-nex-n1,DeepSeek-V3.2-Exp,DeepSeek-V3.2-Exp,81.1,DeepSeek-V3.1,DeepSeek-V3.1,78.8,DeepSeek-V3.2,DeepSeek-V3.2,72.7
+irt,nousresearch/hermes-2-pro-llama-3-8b,Llama 3.1-8B,Llama 3.1-8B,62.9,Llama 3.2 90B,Llama 3.2 90B,61.1,Llama 3-8B,Llama 3-8B,60.6
+irt,nousresearch/hermes-3-llama-3.1-405b,Llama 3.1-405B,Llama 3.1-405B,75.7,Llama 3.3 70B,Llama 3.3 70B,66.7,Llama 3.1-70B,Llama 3.1-70B,66.7
+irt,nousresearch/hermes-3-llama-3.1-70b,Llama 3.3 70B,Llama 3.3 70B,74.3,Llama 3.1-70B,Llama 3.1-70B,74.3,Llama 3.1-405B,Llama 3.1-405B,66.7
+irt,nousresearch/hermes-4-405b,Llama 3.1-405B,Llama 3.1-405B,51.9,Gemma 4 26B A4B,Gemma 4 26B A4B,50.0,internlm-20b,internlm-20b,48.0
+irt,nousresearch/hermes-4-70b,GLM-4.7,GLM-4.7,52.6,Llama 3-70B,Llama 3-70B,52.2,Gemma 2 27B,Gemma 2 27B,52.2
+irt,nvidia/llama-3.3-nemotron-super-49b-v1.5,Nemotron 3 Ultra,Nemotron 3 Ultra,56.5,Llama 3.2 90B,Llama-3.2-90B-Vision-Instruct,56.0,Llama 3-8B,Meta-Llama-3-8B-Instruct,53.3
+irt,nvidia/nemotron-3-nano-30b-a3b,Nemotron-4 15B,Nemotron-4 15B,59.5,Qwen 3.6 35B-A3B,Qwen 3.6 35B-A3B,56.4,Qwen3-30B-A3B,Qwen3-30B-A3B,55.6
+irt,nvidia/nemotron-3-super-120b-a12b,Nemotron 3 Ultra,Nemotron 3 Ultra,61.9,Nemotron-4 15B,Nemotron-4 15B,60.0,Muse Spark Open,Muse-Spark-Open-816B-A42B_xhigh,54.9
+irt,nvidia/nemotron-nano-9b-v2,Nemotron-4 15B,Nemotron-4 15B,66.7,Nemotron 3 Ultra,Nemotron 3 Ultra,57.1,Mistral NeMo,open-mistral-nemo-2407,43.9
+irt,openai/gpt-3.5-turbo,GPT-3.5 Turbo (Jan 2024),gpt-3.5-turbo-0125,83.9,GPT-3.5 Turbo (Jun 2023),gpt-3.5-turbo-0613,83.9,GPT-3.5 Turbo (Nov 2023),gpt-3.5-turbo-1106,83.9
+irt,openai/gpt-3.5-turbo-0613,GPT-3.5 Turbo (Jun 2023),gpt-3.5-turbo-0613,100.0,GPT-3.5 Turbo (Jan 2024),gpt-3.5-turbo-0125,88.9,GPT-3.5 Turbo (Nov 2023),gpt-3.5-turbo-1106,88.9
+irt,openai/gpt-3.5-turbo-16k,GPT-3.5 Turbo (Nov 2023),gpt-3.5-turbo-1106,91.4,GPT-3.5 Turbo (Jan 2024),gpt-3.5-turbo-0125,85.7,GPT-3.5 Turbo (Jun 2023),gpt-3.5-turbo-0613,85.7
+irt,openai/gpt-4-turbo,GPT-4 Turbo (Nov 2023),gpt-4-turbo,100.0,GPT-5.4 Pro,GPT-5.4 Pro,72.7,GPT-4 Turbo (Apr 2024),GPT-4 Turbo (Apr 2024),71.0
+irt,openai/gpt-4.1,GPT-4.1,GPT-4.1,100.0,GPT-5.1,GPT-5.1,85.7,GPT-4 (Jun 2023),gpt-4-0613,82.4
+irt,openai/gpt-4.1-mini,GPT-4.1 mini,GPT-4.1 mini,100.0,GPT-4o mini,GPT-4o mini,87.0,GPT-5.4 Mini,GPT-5.4 Mini,83.3
+irt,openai/gpt-4.1-nano,GPT-4.1 nano,GPT-4.1 nano,100.0,GPT-5.4 Nano,GPT-5.4 Nano,83.3,GPT-5 nano,GPT-5 nano,81.8
+irt,openai/gpt-4o,GPT-5.4,GPT-5.4,76.9,GPT-4.5,GPT-4.5,76.9,GPT-4.1,GPT-4.1,76.9
+irt,openai/gpt-4o-mini,GPT-4o mini,GPT-4o mini,100.0,GPT-5.4 Mini,GPT-5.4 Mini,87.0,GPT-4.1 mini,GPT-4.1 mini,87.0
+irt,openai/gpt-4o-mini-2024-07-18,GPT-4o mini,gpt-4o-mini-2024-07-18,100.0,GPT-5 mini,gpt-5-mini-2025-08-07_high,83.7,GPT-4.1 mini,gpt-4.1-mini-2025-04-14,80.0
+irt,openai/gpt-5-mini,GPT-5 mini,GPT-5 mini,100.0,GPT-5.4 Mini,GPT-5.4 Mini,90.9,GPT-4o mini,GPT-4o mini,85.7
+irt,openai/gpt-5-nano,GPT-5 nano,GPT-5 nano,100.0,GPT-5.4 Nano,GPT-5.4 Nano,90.9,GPT-4.1 nano,GPT-4.1 nano,81.8
+irt,openai/gpt-5.4-nano,GPT-5.4 Nano,GPT-5.4 Nano,100.0,GPT-5 nano,GPT-5 nano,90.9,GPT-4.1 nano,GPT-4.1 nano,83.3
+irt,openai/gpt-oss-120b,gpt-oss-120b,gpt-oss-120b,100.0,gpt-oss-20b,gpt-oss-20b,95.7,GPT-6.1 Sol,GPT-6.1 Sol,60.9
+irt,openai/gpt-oss-20b,gpt-oss-20b,gpt-oss-20b,100.0,gpt-oss-120b,gpt-oss-120b,95.7,GPT-5.2 Pro,GPT-5.2 Pro,63.6
+irt,openai/o3-mini,o3-mini,o3-mini,100.0,o4-mini,o4-mini,85.7,o1-mini,o1-mini,85.7
+irt,openai/o4-mini,o4-mini,o4-mini,100.0,o3-mini,o3-mini,85.7,o1-mini,o1-mini,85.7
+irt,perceptron/perceptron-mk1,Nemotron-4 15B,Nemotron-4 15B,50.0,DeepSeek V4 Pro 0813,DeepSeek V4 Pro 0813,47.1,Gemini 3 Pro,gemini-3-pro-preview,47.1
+irt,perplexity/sonar,Muse Wonder,Muse Wonder,50.0,Muse Spark Open,Muse Spark Open,50.0,Muse Spark,Muse Spark,40.0
+irt,prime-intellect/intellect-3,INTELLECT-1,INTELLECT-1,90.9,internlm-7b,internlm-7b,54.5,internlm-20b,internlm-20b,52.2
+irt,qwen/qwen-2.5-72b-instruct,Qwen2.5-72B,Qwen2.5-72B,87.0,Qwen2-72B,Qwen2-72B,76.2,Qwen3-235B-A22B,Qwen3-235B-A22B,74.1
+irt,qwen/qwen-2.5-7b-instruct,Qwen2.5-72B,Qwen2.5-72B,81.8,Qwen-7B,Qwen-7B,77.8,Qwen3.5-9B,Qwen3.5-9B,76.2
+irt,qwen/qwen-2.5-coder-32b-instruct,Qwen2.5-Coder-32B,Qwen2.5-Coder-32B,91.4,Qwen2.5-Coder-3B,Qwen2.5-Coder-3B,88.2,Qwen2.5-Coder-14B,Qwen2.5-Coder-14B,80.0
+irt,qwen/qwen-plus,Qwen3.7-Plus,Qwen3.7-Plus,85.7,Qwen 3.5 Plus (hosted 397B-A17B),qwen3.5-plus,85.7,Qwen 3.6 Plus,qwen3.6-plus,85.7
+irt,qwen/qwen-plus-2025-07-28,Qwen2.5-Max,qwen-max-2025-01-25,71.8,Qwen3-Max,qwen3-max-2025-09-23,70.0,Qwen3.7-Plus,Qwen3.7-Plus,68.8
+irt,qwen/qwen2.5-vl-72b-instruct,Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,100.0,Qwen2-72B,Qwen2-72B,78.3,Qwen3.5-9B,Qwen3.5-9B,66.7
+irt,qwen/qwen3-14b,Qwen3-14B,Qwen3-14B,100.0,Qwen-14B,Qwen-14B,94.1,Qwen3-8B,Qwen3-8B,82.4
+irt,qwen/qwen3-235b-a22b,Qwen3-235B-A22B,Qwen3-235B-A22B,100.0,Qwen3-235B-A22B-Instruct (Jul 2025),Qwen3-235B-A22B-Instruct-2507,85.7,Qwen3.5-35B-A3B,Qwen3.5-35B-A3B,80.0
+irt,qwen/qwen3-235b-a22b-2507,Qwen3-235B-A22B-Instruct (Jul 2025),Qwen3-235B-A22B-Instruct-2507,100.0,Qwen3-235B-A22B,Qwen3-235B-A22B,85.7,Qwen3-235B-A22B-Thinking (Jul 2025),Qwen3-235B-A22B-Thinking-2507,81.6
+irt,qwen/qwen3-30b-a3b,Qwen3-30B-A3B,Qwen3-30B-A3B,100.0,Qwen3.5-35B-A3B,Qwen3.5-35B-A3B,85.7,Qwen 3.6 35B-A3B,qwen3.6-35b-a3b_none,85.7
+irt,qwen/qwen3-30b-a3b-instruct-2507,Qwen3-30B-A3B-Instruct (Jul 2025),qwen3-30b-a3b-instruct-2507,100.0,Qwen3-30B-A3B,Qwen3-30B-A3B,83.9,Qwen3-30B-A3B-Thinking (Jul 2025),qwen3-30b-a3b-thinking-2507,80.0
+irt,qwen/qwen3-30b-a3b-thinking-2507,Qwen3-30B-A3B-Thinking (Jul 2025),qwen3-30b-a3b-thinking-2507,100.0,Qwen3-30B-A3B-Instruct (Jul 2025),qwen3-30b-a3b-instruct-2507,80.0,Qwen3-235B-A22B-Thinking (Jul 2025),Qwen3-235B-A22B-Thinking-2507,78.6
+irt,qwen/qwen3-32b,Qwen3-32B,Qwen3-32B,100.0,Qwen3-8B,Qwen3-8B,82.4,Qwen3.6 27B,Qwen3.6 27B,80.0
+irt,qwen/qwen3-8b,Qwen3-8B,Qwen3-8B,100.0,Qwen3-32B,Qwen3-32B,82.4,Qwen3-14B,Qwen3-14B,82.4
+irt,qwen/qwen3-coder,Qwen2.5-Coder (7B),Qwen2.5-Coder (7B),74.1,Qwen2.5-Coder-3B,Qwen2.5-Coder-3B,74.1,Qwen2.5-Coder-32B,Qwen2.5-Coder-32B,71.4
+irt,qwen/qwen3-coder-30b-a3b-instruct,Qwen3-30B-A3B,Qwen3-30B-A3B,81.2,Qwen2.5-Coder-3B,Qwen2.5-Coder-3B,80.0,Qwen2.5-Coder-32B,Qwen2.5-Coder-32B,77.8
+irt,qwen/qwen3-coder-flash,Qwen 3.5 Flash (hosted 35B-A3B),qwen3.5-flash,80.0,Qwen 3.6 Flash,qwen3.6-flash,80.0,Qwen3.7-Plus,Qwen3.7-Plus,62.1
+irt,qwen/qwen3-coder-next,Qwen2.5-Coder (7B),Qwen2.5-Coder (7B),62.5,Qwen2.5-Coder-3B,Qwen2.5-Coder-3B,62.5,Qwen2.5-Coder-32B,Qwen2.5-Coder-32B,60.6
+irt,qwen/qwen3-coder-plus,Qwen3.7-Plus,Qwen3.7-Plus,78.6,Qwen 3.5 Plus (hosted 397B-A17B),qwen3.5-plus,78.6,Qwen 3.6 Plus,qwen3.6-plus,78.6
+irt,qwen/qwen3-next-80b-a3b-instruct,Qwen3-30B-A3B,Qwen3-30B-A3B,77.4,Qwen 3.8 Max,qwen3.8-max_unknown,69.0,Qwen3.5-35B-A3B,Qwen3.5-35B-A3B,66.7
+irt,qwen/qwen3-vl-235b-a22b-instruct,Qwen3-235B-A22B,Qwen3-235B-A22B,90.9,Qwen3-235B-A22B-Instruct (Jul 2025),Qwen3-235B-A22B-Instruct-2507,78.9,Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,75.0
+irt,qwen/qwen3-vl-30b-a3b-instruct,Qwen3-30B-A3B,Qwen3-30B-A3B,89.7,Qwen3.5-35B-A3B,Qwen3.5-35B-A3B,77.4,Qwen 3.6 35B-A3B,qwen3.6-35b-a3b_none,77.4
+irt,qwen/qwen3-vl-32b-instruct,Qwen3-32B,Qwen3-32B,85.7,Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,76.9,Qwen3-8B,Qwen3-8B,70.0
+irt,qwen/qwen3-vl-8b-instruct,Qwen3-8B,Qwen3-8B,84.2,Qwen2.5-72B,Qwen2.5-VL-72B-Instruct,72.0,Qwen3-32B,Qwen3-32B,70.0
+irt,qwen/qwen3.5-122b-a10b,Qwen3.5 397B-A17B,Qwen3.5 397B-A17B,76.5,Qwen3.5-35B-A3B,Qwen3.5-35B-A3B,75.0,Qwen3-235B-A22B-Instruct (Jul 2025),Qwen3-235B-A22B-Instruct-2507,70.3
+irt,qwen/qwen3.5-27b,Qwen3.6 27B,Qwen3.6 27B,90.9,Qwen 3.8 27B,qwen3.8-27b_xhigh,90.9,Qwen3-32B,Qwen3-32B,80.0
+irt,qwen/qwen3.5-35b-a3b,Qwen3.5-35B-A3B,Qwen3.5-35B-A3B,100.0,Qwen 3.6 35B-A3B,qwen3.6-35b-a3b_none,93.3,Qwen3-30B-A3B,Qwen3-30B-A3B,85.7
+irt,qwen/qwen3.5-397b-a17b,Qwen3.5 397B-A17B,Qwen3.5 397B-A17B,100.0,Qwen3.5-35B-A3B,Qwen3.5-35B-A3B,81.2,Qwen 3.6 35B-A3B,qwen3.6-35b-a3b_none,75.0
+irt,qwen/qwen3.5-9b,Qwen3.5-9B,Qwen3.5-9B,100.0,Qwen3-8B,Qwen3-8B,77.8,Qwen2.5-72B,Qwen2.5-72B,76.2
+irt,qwen/qwen3.5-flash-02-23,Qwen 3.5 Flash (hosted 35B-A3B),qwen3.5-flash,81.2,Qwen 3.6 Flash,Qwen 3.6 Flash,78.8,Gemini 1.5 Flash (Sep 2024),gemini-1.5-flash-002,71.8
+irt,qwen/qwen3.5-plus-02-15,Qwen 3.5 Plus (hosted 397B-A17B),qwen3.5-plus,80.0,Qwen3.7-Plus,Qwen3.7-Plus,73.3,Qwen 3.6 Plus,qwen3.6-plus,73.3
+irt,qwen/qwen3.5-plus-20260420,Qwen 3.5 Plus (hosted 397B-A17B),qwen3.5-plus,72.7,Qwen 3.6 Plus,qwen3.6-plus,72.7,Qwen3.7-Plus,Qwen3.7-Plus,66.7
+irt,qwen/qwen3.6-27b,Qwen3.6 27B,Qwen3.6 27B,100.0,Qwen 3.8 27B,qwen3.8-27b_xhigh,90.9,Qwen3-32B,Qwen3-32B,80.0
+irt,qwen/qwen3.6-35b-a3b,Qwen 3.6 35B-A3B,qwen3.6-35b-a3b_none,100.0,Qwen3.5-35B-A3B,Qwen3.5-35B-A3B,93.3,Qwen3-30B-A3B,Qwen3-30B-A3B,85.7
+irt,qwen/qwen3.6-flash,Qwen 3.6 Flash,qwen3.6-flash,100.0,Qwen 3.5 Flash (hosted 35B-A3B),qwen3.5-flash,92.3,Qwen 3.6 Plus,qwen3.6-plus,80.0
+irt,qwen/qwen3.6-plus,Qwen 3.6 Plus,qwen3.6-plus,100.0,Qwen3.7-Plus,Qwen3.7-Plus,91.7,Qwen 3.5 Plus (hosted 397B-A17B),qwen3.5-plus,91.7
+irt,rekaai/reka-edge,DeepSeek-V3.2,deepseek-reasoner,46.2,Mistral Large,Mistral Large,45.5,GPT-5.5,gpt-5.5-pre-release_xhigh,42.9
+irt,rekaai/reka-flash-3,Gemini 3 Flash,Gemini 3 Flash,69.2,Qwen 3.6 Flash,Qwen 3.6 Flash,69.2,Gemini 3.8 Flash,Gemini 3.8 Flash,64.3
+irt,sao10k/l3-lunaris-8b,GPT-6 Luna,GPT-6 Luna,52.2,Llama 3-8B,Llama 3-8B,52.2,GPT-5.6 Luna,GPT-5.6 Luna,48.0
+irt,stepfun/step-3.5-flash,GLM-5.3-Flash,GLM-5.3-Flash,74.1,Gemini 3.5 Flash,Gemini 3.5 Flash,73.3,Qwen 3.6 Flash,Qwen 3.6 Flash,71.4
+irt,stepfun/step-3.7-flash,Gemini 3.7 Flash,Gemini 3.7 Flash,73.3,Qwen 3.6 Flash,Qwen 3.6 Flash,71.4,Gemini 3.8 Flash,Gemini 3.8 Flash,66.7
+irt,tencent/hunyuan-a13b-instruct,Baichuan2-13B,Baichuan2-13B,64.0,vicuna-13b-v1.1,vicuna-13b-v1.1,58.3,Baichuan 2-7B,Baichuan 2-7B,48.0
+irt,tencent/hy3-preview,o1-preview,o1-preview,76.2,Qwen 3.6 Max (Preview),Qwen 3.6 Max (Preview),58.1,Gemini 3 Pro,gemini-3-pro-preview,58.1
+irt,thedrummer/rocinante-12b,Claude Instant,claude-instant-1.2,58.1,internlm-20b,internlm-20b,56.0,internlm-7b,internlm-7b,50.0
+irt,upstage/solar-pro-3,GPT-6 Sol,GPT-6 Sol,60.0,o3-pro,o3-pro,58.8,GPT-5.6 Sol,gpt-5.6-sol_promax,55.2
+irt,x-ai/grok-4.20,Grok 4.20,Grok 4.20,100.0,Grok 4.3 Beta,grok-4.3_high,82.4,Grok 4,Grok 4,80.0
+irt,x-ai/grok-4.3,Grok 4.3 Beta,grok-4.3_high,100.0,Grok 4,Grok 4,85.7,Grok 3,Grok 3,85.7
+irt,x-ai/grok-build-0.1,Grok 4.20,Grok 4.20,60.9,Grok 4.3 Beta,Grok 4.3 Beta,59.3,Grok 3,grok-3-beta,56.0
+irt,xiaomi/mimo-v2-flash,Gemini 3 Flash,Gemini 3 Flash,59.3,Gemini 3.8 Flash,Gemini 3.8 Flash,55.2,Gemini 3.7 Flash,Gemini 3.7 Flash,55.2
+irt,xiaomi/mimo-v2.5,Qwen2.5-Max,Qwen2.5-Max,50.0,Dolly 2.0-12b,dolly-v2-12b,47.6,Kimi K2.5,Kimi K2.5,44.4
+irt,xiaomi/mimo-v2.5-pro,Gemini 1.5 Pro (May 2024),gemini-1.5-pro-001,59.3,Gemini 2.5 Pro (Jun 2025),gemini-2.5-pro_32K,59.3,Gemini 3 Pro,Gemini 3 Pro,56.0
+irt,z-ai/glm-4-32b,GLM-5.3,GLM-5.3,75.0,GLM-5.2,GLM-5.2,75.0,Gemma 4 31B IT,Gemma 4 31B IT,70.0
+irt,z-ai/glm-4.5,GLM-5.3,GLM-5.3,85.7,GLM-5.2,GLM-5.2,85.7,GLM-5.1,GLM-5.1,85.7
+irt,z-ai/glm-4.5-air,GLM-5.3,GLM-5.3,66.7,GLM-5.3-Flash,GLM-5.3-Flash,66.7,GLM-5.2,GLM-5.2,66.7
+irt,z-ai/glm-4.5v,GLM-5.3,GLM-5.3,80.0,GLM-5.2,GLM-5.2,80.0,GLM-5.1,GLM-5.1,80.0
+irt,z-ai/glm-4.6,GLM-4.7,GLM-4.7,85.7,GLM-5.3,GLM-5.3,71.4,GLM-5.2,GLM-5.2,71.4
+irt,z-ai/glm-4.6v,GLM-4.7,GLM-4.7,80.0,GLM-5.3,GLM-5.3,66.7,GLM-5.2,GLM-5.2,66.7
+irt,z-ai/glm-4.7,GLM-4.7,GLM-4.7,100.0,GLM-5.3,GLM-5.3,71.4,GLM-5.2,GLM-5.2,71.4
+irt,z-ai/glm-4.7-flash,GLM-5.3-Flash,GLM-5.3-Flash,84.6,Gemini 3.7 Flash,Gemini 3.7 Flash,75.9,GLM-4.7,GLM-4.7,70.0
+irt,z-ai/glm-5,GLM-5,GLM-5,100.0,GLM-5.3,GLM-5.3,83.3,GLM-5.2,GLM-5.2,83.3
+irt,z-ai/glm-5-turbo,GPT-4 Turbo (Nov 2023),gpt-4-turbo,72.7,GLM-5,GLM-5,62.5,GPT-3.5 Turbo (Jan 2024),gpt-3.5-turbo-0125,62.1
+irt,z-ai/glm-5.1,GLM-5.1,GLM-5.1,100.0,GLM-5.3,GLM-5.3,85.7,GLM-5.2,GLM-5.2,85.7
+irt,z-ai/glm-5v-turbo,GPT-4 Turbo (Nov 2023),gpt-4-turbo,69.6,GPT-3.5 Turbo (Jan 2024),gpt-3.5-turbo-0125,60.0,GPT-3.5 Turbo (Jun 2023),gpt-3.5-turbo-0613,60.0
+safetywashing_chat,Llama-2-13b-chat-hf,Llama 2-13B,Llama 2-13B,100.0,LLaMA-13B,LLaMA-13B,90.0,LLaMA-33B,LLaMA-33B,80.0
+safetywashing_chat,Llama-2-70b-chat-hf,Llama 2-70B,Llama 2-70B,100.0,Llama 2-7B,Llama 2-7B,95.2,Llama 3-70B,Llama 3-70B,90.9
+safetywashing_chat,Llama-2-7b-chat-hf,Llama 2-7B,Llama 2-7B,100.0,Llama 2-70B,Llama 2-70B,95.2,LLaMA-7B,LLaMA-7B,88.9
+safetywashing_chat,Meta-Llama-3-70B-Instruct,Llama 3-70B,Meta-Llama-3-70B,100.0,Llama 3-8B,Meta-Llama-3-8B-Instruct,90.3,Llama 3.3 70B,Llama 3.3 70B,75.9
+safetywashing_chat,Meta-Llama-3-8B-Instruct,Llama 3-8B,Meta-Llama-3-8B-Instruct,100.0,Llama 3-70B,Meta-Llama-3-70B,90.3,Llama 3.1-8B,Llama 3.1-8B,74.1
+safetywashing_chat,Mistral-7B-Instruct-v0.2,Mistral 7B v0.1,Mistral 7B v0.1,93.3,Mixtral 8x7B,Mixtral-8x7B-v0.1,81.2,Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,72.7
+safetywashing_chat,Mixtral-8x22B-Instruct-v0.1,Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,100.0,Mixtral 8x7B,Mixtral-8x7B-v0.1,91.4,Mistral 7B v0.1,Mistral 7B v0.1,78.8
+safetywashing_chat,Mixtral-8x7B-Instruct-v0.1,Mixtral 8x7B,Mixtral-8x7B-v0.1,100.0,Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,91.4,Mistral 7B v0.1,Mistral 7B v0.1,87.5
+safetywashing_chat,Qwen1.5-0.5B-Chat,Qwen2.5-Coder-0.5B,Qwen2.5-Coder-0.5B,73.3,Qwen3.5-9B,Qwen3.5-9B,72.7,Qwen2.5-72B,Qwen2.5-72B,69.6
+safetywashing_chat,Qwen1.5-1.8B-Chat,Qwen-1_8B,Qwen-1_8B,85.7,Qwen3.5-9B,Qwen3.5-9B,72.7,Qwen3-8B,Qwen3-8B,70.0
+safetywashing_chat,Qwen1.5-110B-Chat,Qwen-14B,Qwen-14B,70.0,Qwen3-14B,Qwen3-14B,66.7,Qwen-1_8B,Qwen-1_8B,66.7
+safetywashing_chat,Qwen1.5-14B-Chat,Qwen-14B,Qwen-14B,84.2,Qwen3-14B,Qwen3-14B,80.0,Qwen2.5-Coder-14B,Qwen2.5-Coder-14B,71.4
+safetywashing_chat,Qwen1.5-32B-Chat,Qwen3-32B,Qwen3-32B,80.0,Qwen3.6 27B,Qwen3.6 27B,72.7,Qwen 3.8 27B,qwen3.8-27b_xhigh,72.7
+safetywashing_chat,Qwen1.5-4B-Chat,Qwen-14B,Qwen-14B,77.8,Qwen3-14B,Qwen3-14B,73.7,Qwen-7B,Qwen-7B,70.6
+safetywashing_chat,Qwen1.5-72B-Chat,Qwen2.5-72B,Qwen2.5-72B,90.9,Qwen2-72B,Qwen2-72B,80.0,CodeQwen1.5-7B,CodeQwen1.5-7B,80.0
+safetywashing_chat,Qwen1.5-7B-Chat,Qwen2.5-72B,Qwen2.5-72B,85.7,CodeQwen1.5-7B,CodeQwen1.5-7B,83.3,Qwen-7B,Qwen-7B,82.4
+safetywashing_chat,Yi-34B-Chat,Yi-9B,Yi-9B,72.7,Yi 6B,Yi 6B,72.7,Phi-4,Phi-4,54.5
+safetywashing_chat,Yi-6B-Chat,Yi 6B,Yi 6B,100.0,Yi-9B,Yi-9B,80.0,Kimi K2.6,Kimi K2.6,42.9
+safetywashing_chat,dbrx-instruct,XGen-7B,XGen-7B,36.4,Muse Wonder,Muse Wonder,26.7,DeepSeek-R1,DeepSeek-R1,26.7
+safetywashing_chat,deepseek-llm-67b-chat,DeepSeek-V3.2,DeepSeek-V3.2,69.0,DeepSeek-V3.1,DeepSeek-V3.1,69.0,DeepSeek-V3,DeepSeek-V3-Base,68.8
+safetywashing_chat,deepseek-llm-7b-chat,DeepSeek-V3.2,DeepSeek-V3.2,71.4,DeepSeek-V3.1,DeepSeek-V3.1,71.4,DeepSeek-V3,DeepSeek-V3-Base,71.0
+safetywashing_chat,falcon-180B-chat,Falcon-180B,Falcon-180B,100.0,Falcon-40B,Falcon-40B,85.7,Falcon 2 11B,falcon-11b,85.7
+safetywashing_chat,falcon-40b-instruct,Falcon-40B,Falcon-40B,100.0,Falcon-180B,Falcon-180B,85.7,Falcon-7B,Falcon-7B,84.2
+safetywashing_chat,falcon-7b-instruct,Falcon-7B,Falcon-7B,100.0,Falcon-40B,Falcon-40B,84.2,Falcon 2 11B,falcon-11b,84.2
+safetywashing_chat,gemma-1.1-2b-it,Gemma 2B,Gemma 2B,80.0,Gemma 2 27B,Gemma 2 27B,78.3,Gemma 2 9B,Gemma 2 9B,72.7
+safetywashing_chat,gemma-1.1-7b-it,Gemma 7B,Gemma 7B,80.0,Gemma 2 27B,Gemma 2 27B,78.3,Gemma 2 9B,Gemma 2 9B,72.7
+safetywashing_base,Mixtral-8x22B-v0.1,Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,100.0,Mixtral 8x7B,Mixtral-8x7B-v0.1,91.4,Mistral 7B v0.1,Mistral 7B v0.1,78.8
+safetywashing_base,Mistral-7B-v0.1,Mistral 7B v0.1,Mistral 7B v0.1,100.0,Mixtral 8x7B,Mixtral-8x7B-v0.1,87.5,Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,78.8
+safetywashing_base,Llama-2-13b-hf,Llama 2-13B,Llama 2-13B,100.0,LLaMA-13B,LLaMA-13B,90.0,LLaMA-33B,LLaMA-33B,80.0
+safetywashing_base,Qwen1.5-72B,Qwen2.5-72B,Qwen2.5-72B,90.9,Qwen2-72B,Qwen2-72B,80.0,CodeQwen1.5-7B,CodeQwen1.5-7B,80.0
+safetywashing_base,Qwen1.5-14B,Qwen-14B,Qwen-14B,84.2,Qwen3-14B,Qwen3-14B,80.0,Qwen2.5-Coder-14B,Qwen2.5-Coder-14B,71.4
+safetywashing_base,Yi-9B,Yi-9B,Yi-9B,100.0,Yi 6B,Yi 6B,80.0,Qwen3.5-9B,Qwen3.5-9B,40.0
+safetywashing_base,falcon-40b,Falcon-40B,Falcon-40B,100.0,Falcon-180B,Falcon-180B,85.7,Falcon-7B,Falcon-7B,84.2
+safetywashing_base,Meta-Llama-3-70B,Llama 3-70B,Meta-Llama-3-70B,100.0,Llama 3-8B,Meta-Llama-3-8B-Instruct,90.3,Llama 3.3 70B,Llama 3.3 70B,75.9
+safetywashing_base,falcon-7b,Falcon-7B,Falcon-7B,100.0,Falcon-40B,Falcon-40B,84.2,Falcon 2 11B,falcon-11b,84.2
+safetywashing_base,Meta-Llama-3-8B,Llama 3-8B,Meta-Llama-3-8B-Instruct,100.0,Llama 3-70B,Meta-Llama-3-70B,90.3,Llama 3.1-8B,Llama 3.1-8B,74.1
+safetywashing_base,Qwen1.5-0.5B,Qwen2.5-Coder-0.5B,Qwen2.5-Coder-0.5B,73.3,Qwen3.5-9B,Qwen3.5-9B,72.7,Qwen2.5-72B,Qwen2.5-72B,69.6
+safetywashing_base,dbrx-base,Muse Wonder,Muse Wonder,50.0,XGen-7B,xgen-7b-8k-base,50.0,DeepSeek-V3,DeepSeek-V3-Base,48.0
+safetywashing_base,deepseek-llm-67b-base,DeepSeek-V3,DeepSeek-V3-Base,75.7,DeepSeek Coder 6.7B,deepseek-coder-6.7b-base,75.6,DeepSeek Coder 33B,deepseek-coder-33b-base,68.2
+safetywashing_base,Qwen1.5-1.8B,Qwen-1_8B,Qwen-1_8B,85.7,Qwen3.5-9B,Qwen3.5-9B,72.7,Qwen3-8B,Qwen3-8B,70.0
+safetywashing_base,Yi-6B,Yi 6B,Yi 6B,100.0,Yi-9B,Yi-9B,80.0,Kimi K2.6,Kimi K2.6,42.9
+safetywashing_base,Yi-34B,Yi-9B,Yi-9B,72.7,Yi 6B,Yi 6B,72.7,Phi-4,Phi-4,54.5
+safetywashing_base,gemma-2b,Gemma 2B,Gemma 2B,100.0,Gemma 2 9B,Gemma 2 9B,88.9,Gemma 7B,Gemma 7B,87.5
+safetywashing_base,gemma-7b,Gemma 7B,Gemma 7B,100.0,Gemma 2B,Gemma 2B,87.5,Gemma 3 27B,Gemma 3 27B,84.2
+safetywashing_base,Llama-2-70b-hf,Llama 2-70B,Llama 2-70B,100.0,Llama 2-7B,Llama 2-7B,95.2,Llama 3-70B,Llama 3-70B,90.9
+safetywashing_base,deepseek-llm-7b-base,DeepSeek-V3,DeepSeek-V3-Base,77.8,DeepSeek Coder 6.7B,deepseek-coder-6.7b-base,72.7,DeepSeek Coder 33B,deepseek-coder-33b-base,69.8
+safetywashing_base,Llama-2-7b-hf,Llama 2-7B,Llama 2-7B,100.0,Llama 2-70B,Llama 2-70B,95.2,LLaMA-7B,LLaMA-7B,88.9
+safetywashing_base,falcon-180B,Falcon-180B,Falcon-180B,100.0,Falcon-40B,Falcon-40B,85.7,Falcon 2 11B,falcon-11b,85.7
+safetywashing_base,Qwen1.5-4B,Qwen-14B,Qwen-14B,77.8,Qwen3-14B,Qwen3-14B,73.7,Qwen-7B,Qwen-7B,70.6
+safetywashing_base,Qwen1.5-110B,Qwen-14B,Qwen-14B,70.0,Qwen3-14B,Qwen3-14B,66.7,Qwen-1_8B,Qwen-1_8B,66.7
+safetywashing_base,Mixtral-8x7B-v0.1,Mixtral 8x7B,Mixtral-8x7B-v0.1,100.0,Mixtral 8x22B,Mixtral-8x22B-Instruct-v0.1,91.4,Mistral 7B v0.1,Mistral 7B v0.1,87.5
+safetywashing_base,Qwen1.5-7B,Qwen2.5-72B,Qwen2.5-72B,85.7,CodeQwen1.5-7B,CodeQwen1.5-7B,83.3,Qwen-7B,Qwen-7B,82.4
+safetywashing_base,Qwen1.5-32B,Qwen3-32B,Qwen3-32B,80.0,Qwen3.6 27B,Qwen3.6 27B,72.7,Qwen 3.8 27B,qwen3.8-27b_xhigh,72.7

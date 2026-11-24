@@ -1,0 +1,53 @@
+Grader labels per dataset (latest grading per cell):
+dataset       label      
+advbench      complied        11239
+              refused         85404
+ahb           ambiguous          65
+              no              91646
+              yes             32120
+donotanswer   0               34308
+              1               47208
+              2                5359
+              3               25843
+              4               40797
+              5               21042
+harmbench     error            1717
+              no              46236
+              yes              8194
+health_orsc   complied        19465
+              refused         14932
+orbench_hard  compliance     130775
+              error               6
+              refusal        102941
+sorrybench    ambiguous           1
+              error              64
+              fulfillment     22586
+              refusal         55992
+truthfulqa    truthful        85647
+              untruthful      66351
+
+Invalid cells inside the matrices: 1853
+dataset       label    
+ahb           ambiguous      65
+harmbench     error        1717
+orbench_hard  error           6
+sorrybench    ambiguous       1
+              error          64
+
+By model (top 15):
+dataset     model                      
+harmbench   deepseek/deepseek-v3.2         298
+            qwen/qwen3-235b-a22b-2507      298
+            deepseek/deepseek-v4-flash     296
+            anthropic/claude-sonnet-4.5    210
+            openai/gpt-5-mini              133
+            z-ai/glm-4-32b                 128
+            perplexity/sonar                87
+            google/gemini-2.5-pro           53
+            google/gemma-4-31b-it           49
+            anthropic/claude-haiku-4.5      47
+            x-ai/grok-build-0.1             41
+            z-ai/glm-4.7-flash              36
+sorrybench  openai/gpt-oss-120b             33
+            qwen/qwen3.5-122b-a10b          32
+harmbench   tencent/hy3-preview             26

@@ -1,0 +1,56 @@
+source,source_model,epoch_versions,note
+irt,qwen/qwen-2.5-7b-instruct,qwen2.5-7b-instruct,
+irt,minimax/minimax-m2,MiniMax-M2,
+irt,minimax/minimax-m2.1,MiniMax-M2.1,
+irt,minimax/minimax-m2.5,MiniMax-M2.5,
+irt,minimax/minimax-m2.7,MiniMax-M2.7,
+irt,mistralai/mistral-small-24b-instruct-2501,mistral-small-2501;mistral-small-3-2501,
+irt,mistralai/mistral-small-3.1-24b-instruct,mistral-small-2503;mistral-small-3.1-2503,
+irt,mistralai/mistral-small-3.2-24b-instruct,mistral-small-2506;mistral-small-3.2-2506,
+irt,mistralai/mistral-medium-3.1,mistral-medium-2508,
+irt,mistralai/mistral-large-2512,mistral-large-2512,
+irt,google/gemma-3-12b-it,gemma-3-12b-it,
+irt,google/gemma-3-4b-it,gemma-3-4b-it,
+irt,google/gemini-2.0-flash-lite-001,gemini-2.0-flash-lite,
+irt,bytedance-seed/seed-1.6,seed-1.6;seed-1.6_none;seed-1.6_unknown,reasoning-mode variants pooled (max) as Epoch does within a group
+irt,cohere/command-a,c4ai-command-a-03-2025,
+irt,cohere/command-r-08-2024,c4ai-command-r-08-2024,
+irt,meta-llama/llama-3.2-1b-instruct,Llama-3.2-1B-Instruct,
+irt,meta-llama/llama-3.2-3b-instruct,Llama-3.2-3B-Instruct;llama-3.2-3b-instruct,
+irt,meta-llama/llama-3.2-11b-vision-instruct,Llama-3.2-11B-Vision-Instruct,
+irt,z-ai/glm-4.5,glm-4.5;glm-4.5_thinking;chutes/GLM-4.5-FP8,
+irt,z-ai/glm-4.5-air,GLM-4.5-Air,
+irt,z-ai/glm-4.6,glm-4.6;zai-org/GLM-4.6,
+irt,z-ai/glm-4.7-flash,glm-4.7-flash;glm-4.7-flash_none,
+irt,deepseek/deepseek-r1-distill-llama-70b,DeepSeek-R1-Distill-Llama-70B,
+irt,deepseek/deepseek-r1-distill-qwen-32b,DeepSeek-R1-Distill-Qwen-32B,
+irt,deepseek/deepseek-v3.1-terminus,DeepSeek-V3.1-Terminus,
+irt,qwen/qwen3.5-122b-a10b,qwen3.5-122b-a10b_none,
+irt,qwen/qwen3.5-27b,qwen3.5-27B,
+irt,qwen/qwen3-coder,Qwen3-Coder-480B-A35B-Instruct,
+irt,qwen/qwen3-coder-next,qwen3-coder-next,
+irt,qwen/qwen3-next-80b-a3b-instruct,chutes/Qwen3-Next-80B-A3B-Instruct;deepinfra/Qwen3-Next-80B-A3B-Instruct,
+irt,moonshotai/kimi-k2-0905,Kimi-K2-Instruct-0905;fireworks/Kimi-K2-Instruct-0905;moonshotai/kimi-k2-0905,kimi-k2-turbo-preview excluded
+irt,xiaomi/mimo-v2.5,mimo-v2.5,
+irt,xiaomi/mimo-v2.5-pro,mimo-v2.5-pro,
+irt,amazon/nova-lite-v1,amazon.nova-lite-v1:0,
+irt,amazon/nova-micro-v1,amazon.nova-micro-v1:0,
+irt,microsoft/wizardlm-2-8x22b,WizardLM-2-8x22B,
+irt,nvidia/nemotron-3-super-120b-a12b,nemotron-3-super,
+irt,nvidia/nemotron-nano-9b-v2,nvidia-nemotron-nano-9b-v2,
+irt,rekaai/reka-flash-3,reka-flash-3,
+safetywashing_chat,Yi-34B-Chat,Yi-34B;Yi-34B-Chat,base+chat pooled as Epoch does for anchors
+safetywashing_chat,deepseek-llm-67b-chat,deepseek-llm-67b-base;deepseek-llm-67b-chat,base+chat pooled
+safetywashing_chat,dbrx-instruct,dbrx-base;dbrx-instruct,base+chat pooled
+safetywashing_chat,Qwen1.5-7B-Chat,Qwen1.5-7B;qwen1.5-7b-chat,base+chat pooled
+safetywashing_chat,Qwen1.5-14B-Chat,qwen1.5-14B;qwen1.5-14b-chat,base+chat pooled
+safetywashing_chat,Qwen1.5-32B-Chat,qwen1.5-32B;qwen1.5-32b-chat,base+chat pooled
+safetywashing_chat,Qwen1.5-72B-Chat,qwen1.5-72b-chat,
+safetywashing_chat,Mistral-7B-Instruct-v0.2,Mistral-7B-Instruct-v0.2,crosswalk has only a family match to Mistral 7B v0.1
+safetywashing_base,Yi-34B,Yi-34B;Yi-34B-Chat,base+chat pooled
+safetywashing_base,deepseek-llm-67b-base,deepseek-llm-67b-base;deepseek-llm-67b-chat,base+chat pooled
+safetywashing_base,dbrx-base,dbrx-base;dbrx-instruct,base+chat pooled
+safetywashing_base,Qwen1.5-7B,Qwen1.5-7B;qwen1.5-7b-chat,base+chat pooled
+safetywashing_base,Qwen1.5-14B,qwen1.5-14B;qwen1.5-14b-chat,base+chat pooled
+safetywashing_base,Qwen1.5-32B,qwen1.5-32B;qwen1.5-32b-chat,base+chat pooled
+safetywashing_base,Qwen1.5-72B,qwen1.5-72b-chat,

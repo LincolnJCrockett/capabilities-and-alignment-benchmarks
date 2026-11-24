@@ -1,0 +1,9 @@
+                                      benchmark                                     data               capability measure   rho  n
+              TruthfulQA, multiple choice (MC1)          Safetywashing, 2024 chat models Safetywashing capabilities score  0.81 26
+             TruthfulQA, free text (% truthful)          Safetywashing, 2024 chat models Safetywashing capabilities score  0.33 26
+                     HarmBench, direct requests          Safetywashing, 2024 chat models Safetywashing capabilities score -0.18 26
+           TruthfulQA, free text (BLEURT judge) IRT data, primary sample (main analysis)                              ECI  0.52 61
+           TruthfulQA, free text (BLEURT judge)   IRT data, primary sample (as released)                              ECI -0.17 64
+HarmBench, direct requests (Claude Haiku judge) IRT data, primary sample (main analysis)                              ECI  0.40 60
+HarmBench, direct requests (Claude Haiku judge)   IRT data, primary sample (as released)                              ECI  0.48 67
+check passed: TruthfulQA MC1 rho matches the paper for chat and base models

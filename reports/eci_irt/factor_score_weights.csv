@@ -1,0 +1,9 @@
+,Refusal strictness,Truthfulness,Contextual harm
+HarmBench,-0.0038,-0.0453,-0.0043
+SORRY-Bench,0.9921,0.1864,0.0285
+AHB,0.0675,-0.0593,-0.0298
+OR-Bench-Hard,0.028,0.1575,-0.0243
+TruthfulQA,-0.0682,0.0915,0.0227
+Do-Not-Answer,0.0205,0.8215,-0.0092
+AdvBench,-0.06,0.0434,0.014
+Health-ORSC,-0.0065,-0.0521,0.9927

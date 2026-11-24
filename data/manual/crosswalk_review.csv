@@ -1,0 +1,27 @@
+source,source_model,epoch_model,match_type,confidence,review_output
+irt,deepseek/deepseek-chat,DeepSeek-V3,snapshot,medium,F
+irt,deepseek/deepseek-chat-v3,DeepSeek-V3,snapshot,medium,T
+irt,deepseek/deepseek-v3.1-terminus,,none,medium,T
+irt,google/gemini-2.5-flash-lite,Gemini 2.5 Flash-Lite (Jun 2025),snapshot,medium,T
+irt,google/gemini-2.5-flash-lite-preview-09-2025,,none,medium,T
+irt,google/gemini-3.1-flash-lite-preview,Gemini 3.1 Flash-Lite,snapshot,medium,F
+irt,mistralai/mistral-large,Mistral Large 2 (Jul 2024),snapshot,low,F
+irt,mistralai/mistral-medium-3.1,,none,medium,T
+irt,moonshotai/kimi-k2-0905,,none,medium,T
+irt,openai/gpt-3.5-turbo,GPT-3.5 Turbo (Jan 2024),snapshot,medium,T
+irt,openai/gpt-3.5-turbo-16k,,none,medium,T
+irt,openai/gpt-4-turbo,GPT-4 Turbo (Apr 2024),snapshot,medium,T
+irt,openai/gpt-4o,GPT-4o (Aug 2024),snapshot,low,T
+irt,qwen/qwen-2.5-coder-32b-instruct,Qwen2.5-Coder-32B,family,medium,T
+irt,qwen/qwen-plus,,none,medium,T
+irt,qwen/qwen2.5-vl-72b-instruct,Qwen2.5-72B,family,medium,F
+irt,qwen/qwen3.5-flash-02-23,Qwen 3.5 Flash (hosted 35B-A3B),snapshot,medium,F
+irt,qwen/qwen3.5-plus-02-15,Qwen 3.5 Plus (hosted 397B-A17B),snapshot,medium,F
+irt,qwen/qwen3.5-plus-20260420,Qwen 3.5 Plus (hosted 397B-A17B),snapshot,low,F
+irt,x-ai/grok-4.3,Grok 4.3 Beta,snapshot,medium,F
+safetywashing_chat,Llama-2-7b-chat-hf,Llama 2-7B,family,medium,F
+safetywashing_chat,Mistral-7B-Instruct-v0.2,Mistral 7B v0.1,family,low,F
+safetywashing_chat,falcon-180B-chat,Falcon-180B,family,medium,F
+safetywashing_chat,falcon-7b-instruct,Falcon-7B,family,medium,F
+safetywashing_chat,gemma-1.1-2b-it,Gemma 2B,family,low,F
+safetywashing_chat,gemma-1.1-7b-it,Gemma 7B,family,low,F

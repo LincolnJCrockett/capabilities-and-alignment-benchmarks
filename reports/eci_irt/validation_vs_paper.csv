@@ -1,0 +1,8 @@
+pair,ours,paper
+HarmBench - SORRY-Bench,0.9,0.89
+HarmBench - OR-Bench-Hard,-0.7,-0.77 to -0.67
+SORRY-Bench - OR-Bench-Hard,-0.83,-0.77 to -0.67
+AdvBench - Health-ORSC,0.57,0.58
+"variance explained, 1 factor(s)",49%,47%
+"variance explained, 2 factor(s)",71%,69%
+"variance explained, 3 factor(s)",74%,77%

@@ -1,0 +1,246 @@
+source,source_model,match_type,confidence,eci_official,n_epoch_benchmarks,n_sw_benchmarks,method,eci_ext,eci_ext_lo,eci_ext_hi,expected_rmse,eci_loo_projection,exclusion_reason,included,eci_final
+irt,amazon/nova-2-lite-v1,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,amazon/nova-lite-v1,none,high,,1,0,epoch_projection,118.06225318904188,115.03513867324405,121.54107235067225,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,amazon/nova-micro-v1,none,high,,1,0,epoch_projection,111.28855482889254,106.94178585300777,115.84703414407564,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,anthropic/claude-3-haiku,exact,high,117.79,0,0,official,117.79,113.6,121.58,,,,True,117.79
+irt,anthropic/claude-3.5-haiku,exact,high,124.75,0,0,official,124.75,121.49,127.65,,,,True,124.75
+irt,anthropic/claude-haiku-4.5,exact,high,142.76,0,0,official,142.76,141.15,144.34,,,,True,142.76
+irt,anthropic/claude-opus-4,exact,high,142.88,0,0,official,142.88,141.27,144.47,,,,True,142.88
+irt,anthropic/claude-sonnet-4,exact,high,141.88,0,0,official,141.88,140.3,143.41,,,,True,141.88
+irt,anthropic/claude-sonnet-4.5,exact,high,147.59,0,0,official,147.59,146.14,149.04,,,,True,147.59
+irt,arcee-ai/trinity-mini,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,bytedance-seed/seed-1.6,none,high,,4,0,epoch_projection,141.16743133736657,140.20524582681645,142.11254088468098,3.1360751025181406,,,True,141.16743133736657
+irt,bytedance-seed/seed-1.6-flash,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,bytedance-seed/seed-2.0-lite,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,bytedance-seed/seed-2.0-mini,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,bytedance/ui-tars-1.5-7b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,cohere/command-a,none,high,,3,0,epoch_projection,127.01823251408896,124.5196355631428,129.06817556581106,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,cohere/command-r-08-2024,none,high,,3,0,epoch_projection,107.94485050329611,103.40649262217782,112.47998790592351,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,cohere/command-r7b-12-2024,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,deepseek/deepseek-chat,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,deepseek/deepseek-chat-v3,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,deepseek/deepseek-chat-v3-0324,exact,high,135.28,0,0,official,135.28,133.12,137.34,,,,True,135.28
+irt,deepseek/deepseek-chat-v3.1,exact,high,140.8,0,0,official,140.8,137.55,143.94,,,,True,140.8
+irt,deepseek/deepseek-r1-distill-llama-70b,none,high,,3,0,epoch_projection,136.11627973852555,134.75742665062234,137.3324579731713,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,deepseek/deepseek-r1-distill-qwen-32b,none,high,,3,0,epoch_projection,137.0448199187136,135.76459583072833,138.20112686400256,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,deepseek/deepseek-v3.1-terminus,none,medium,,2,0,epoch_projection,143.39882918901915,142.31015582007197,144.16893393507382,6.165871545992027,,fewer than 4 benchmarks,False,
+irt,deepseek/deepseek-v3.2,exact,high,146.26,0,0,official,146.26,144.75,147.75,,,,True,146.26
+irt,deepseek/deepseek-v3.2-exp,exact,high,144.39,0,0,official,144.39,142.07,146.73,,,,True,144.39
+irt,deepseek/deepseek-v4-flash,exact,high,146.84,0,0,official,146.84,143.6,150.16,,,,True,146.84
+irt,deepseek/deepseek-v4-pro,exact,high,150.21,0,0,official,150.21,148.47,152.04,,,,True,150.21
+irt,essentialai/rnj-1-instruct,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,google/gemini-2.0-flash-001,exact,high,134.02,0,0,official,134.02,131.74,136.18,,,,True,134.02
+irt,google/gemini-2.0-flash-lite-001,none,high,,1,0,epoch_projection,121.12193715834893,118.43747165386274,123.51292365970706,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,google/gemini-2.5-flash,exact,high,140.84,0,0,official,140.84,138.4,143.12,,,,True,140.84
+irt,google/gemini-2.5-flash-lite,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,google/gemini-2.5-flash-lite-preview-09-2025,none,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,google/gemini-2.5-pro,exact,high,144.91,0,0,official,144.91,143.5,146.3,,,,True,144.91
+irt,google/gemini-3-flash-preview,exact,high,152.34,0,0,official,152.34,150.79,153.98,,,,True,152.34
+irt,google/gemini-3.1-flash-lite,exact,high,145.03,0,0,official,145.03,142.88,147.25,,,,True,145.03
+irt,google/gemini-3.1-flash-lite-preview,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,google/gemma-2-27b-it,exact,high,118.61,0,0,official,118.61,114.48,122.35,,,,True,118.61
+irt,google/gemma-3-12b-it,none,high,,4,0,epoch_projection,121.24306844569173,118.45245741526065,123.65608296684648,3.1360751025181406,,,True,121.24306844569173
+irt,google/gemma-3-27b-it,exact,high,127.5,0,0,official,127.5,124.41,130.28,,,,True,127.5
+irt,google/gemma-3-4b-it,none,high,,4,0,epoch_projection,113.24091387746971,110.05328135521394,116.09130952877102,3.1360751025181406,,,True,113.24091387746971
+irt,google/gemma-3n-e4b-it,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,google/gemma-4-26b-a4b-it,exact,high,141.58,0,0,official,141.58,139.14,144.02,,,,True,141.58
+irt,google/gemma-4-31b-it,exact,high,144.12,0,0,official,144.12,141.72,146.59,,,,True,144.12
+irt,gryphe/mythomax-l2-13b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,ibm-granite/granite-4.0-h-micro,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,ibm-granite/granite-4.1-8b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,inclusionai/ling-2.6-1t,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,inclusionai/ling-2.6-flash,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,inflection/inflection-3-pi,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,inflection/inflection-3-productivity,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,kwaipilot/kat-coder-pro-v2,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,liquid/lfm-2-24b-a2b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,liquid/lfm-2-24b-a2b-20260224,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,meta-llama/llama-3-70b-instruct,exact,high,121.34,0,0,official,121.34,117.67,124.75,,,,True,121.34
+irt,meta-llama/llama-3-8b-instruct,exact,high,109.0,0,0,official,109.0,103.32,113.95,,,,True,109.0
+irt,meta-llama/llama-3.1-70b-instruct,exact,high,124.72,0,0,official,124.72,121.58,127.63,,,,True,124.72
+irt,meta-llama/llama-3.1-8b-instruct,exact,high,110.78,0,0,official,110.78,105.32,115.82,,,,True,110.78
+irt,meta-llama/llama-3.2-11b-vision-instruct,none,high,,2,0,epoch_projection,98.65261861165236,92.03053942337493,105.17289645309071,6.165871545992027,,fewer than 4 benchmarks,False,
+irt,meta-llama/llama-3.2-1b-instruct,none,high,,3,0,epoch_projection,102.28026616504775,98.03059806231923,105.72560636262645,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,meta-llama/llama-3.2-3b-instruct,none,high,,1,0,epoch_projection,110.33645189004845,105.32206490654701,114.5617188425664,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,meta-llama/llama-3.3-70b-instruct,exact,high,126.16,0,0,official,126.16,123.1,128.98,,,,True,126.16
+irt,meta-llama/llama-4-maverick,exact,high,132.24,0,0,official,132.24,130.0,134.26,,,,True,132.24
+irt,meta-llama/llama-4-scout,exact,high,127.77,0,0,official,127.77,124.88,130.4,,,,True,127.77
+irt,meta-llama/llama-guard-4-12b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,microsoft/phi-4,exact,high,129.24,0,0,official,129.24,126.27,131.95,,,,True,129.24
+irt,microsoft/phi-4-mini-instruct,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,microsoft/wizardlm-2-8x22b,none,high,,2,0,epoch_projection,120.50859207170177,117.76038393957182,123.29035011217097,6.165871545992027,,fewer than 4 benchmarks,False,
+irt,minimax/minimax-01,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,minimax/minimax-m2,none,high,,2,0,epoch_projection,140.66029634822098,139.24108817898087,141.83352607524785,6.165871545992027,,fewer than 4 benchmarks,False,
+irt,minimax/minimax-m2-her,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,minimax/minimax-m2.1,none,high,,2,0,epoch_projection,144.29818883526187,143.25582748130395,145.30165928695249,6.165871545992027,,fewer than 4 benchmarks,False,
+irt,minimax/minimax-m2.5,none,high,,6,0,epoch_projection,146.89751681719164,146.05796689343276,147.8123676541073,1.886417009388623,,,True,146.89751681719164
+irt,minimax/minimax-m2.7,none,high,,4,0,epoch_projection,146.1231314081489,145.09313102506837,147.15208342647082,3.1360751025181406,,,True,146.1231314081489
+irt,mistralai/codestral-2508,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/devstral-2512,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/devstral-small,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/ministral-14b-2512,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/ministral-3b-2512,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/ministral-8b-2512,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/mistral-7b-instruct-v0.1,family,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/mistral-large,snapshot,low,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/mistral-large-2512,none,high,,3,0,epoch_projection,130.84944704204983,128.79115706625086,132.49820195048758,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,mistralai/mistral-medium-3,exact,high,132.81,0,0,official,132.81,130.17,135.2,,,,True,132.81
+irt,mistralai/mistral-medium-3.1,none,medium,,3,0,epoch_projection,134.6531711188708,133.04834661164887,136.0415292485487,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,mistralai/mistral-nemo,exact,high,113.81,0,0,official,113.81,108.8,118.19,,,,True,113.81
+irt,mistralai/mistral-saba,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/mistral-small-24b-instruct-2501,none,high,,3,0,epoch_projection,124.89791210378075,122.63539810697387,127.06213646375707,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,mistralai/mistral-small-2603,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,mistralai/mistral-small-3.1-24b-instruct,none,high,,4,0,epoch_projection,125.41686515328429,123.1119519715964,127.48719568094344,3.1360751025181406,,,True,125.41686515328429
+irt,mistralai/mistral-small-3.2-24b-instruct,none,high,,3,0,epoch_projection,129.8813981118746,128.01566760590964,131.53976364992124,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,mistralai/mixtral-8x22b-instruct,exact,high,118.66,0,0,official,118.66,114.34,122.54,,,,True,118.66
+irt,mistralai/voxtral-small-24b-2507,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,moonshotai/kimi-k2,exact,high,141.25,0,0,official,141.25,138.25,143.95,,,,True,141.25
+irt,moonshotai/kimi-k2-0905,none,medium,,3,0,epoch_projection,139.88776683346842,138.70012067316753,141.0208925349197,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,moonshotai/kimi-k2.5,exact,high,148.8,0,0,official,148.8,147.3,150.35,,,,True,148.8
+irt,moonshotai/kimi-k2.6,exact,high,151.62,0,0,official,151.62,149.86,153.44,,,,True,151.62
+irt,nex-agi/deepseek-v3.1-nex-n1,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,nousresearch/hermes-2-pro-llama-3-8b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,nousresearch/hermes-3-llama-3.1-405b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,nousresearch/hermes-3-llama-3.1-70b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,nousresearch/hermes-4-405b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,nousresearch/hermes-4-70b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,nvidia/llama-3.3-nemotron-super-49b-v1.5,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,nvidia/nemotron-3-nano-30b-a3b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,nvidia/nemotron-3-super-120b-a12b,none,high,,1,0,epoch_projection,138.87502871646328,137.534318239731,140.1962676256501,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,nvidia/nemotron-nano-9b-v2,none,high,,1,0,epoch_projection,124.0315682874907,120.10043926368301,127.4752341656442,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,openai/gpt-3.5-turbo,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,openai/gpt-3.5-turbo-0613,exact,high,105.84,0,0,official,105.84,97.72,113.26,,,,True,105.84
+irt,openai/gpt-3.5-turbo-16k,none,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,openai/gpt-4-turbo,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,openai/gpt-4.1,exact,high,136.18,0,0,official,136.18,134.14,138.06,,,,True,136.18
+irt,openai/gpt-4.1-mini,exact,high,134.27,0,0,official,134.27,132.13,136.21,,,,True,134.27
+irt,openai/gpt-4.1-nano,exact,high,126.81,0,0,official,126.81,123.79,129.59,,,,True,126.81
+irt,openai/gpt-4o,snapshot,low,,0,0,none,,,,,,no benchmark data,False,
+irt,openai/gpt-4o-mini,exact,high,123.75,0,0,official,123.75,120.5,126.65,,,,True,123.75
+irt,openai/gpt-4o-mini-2024-07-18,exact,high,123.75,0,0,official,123.75,120.5,126.65,,,,True,123.75
+irt,openai/gpt-5-mini,exact,high,146.01,0,0,official,146.01,144.4,147.59,,,,True,146.01
+irt,openai/gpt-5-nano,exact,high,139.09,0,0,official,139.09,137.15,140.93,,,,True,139.09
+irt,openai/gpt-5.4-nano,exact,high,146.33,0,0,official,146.33,144.67,148.02,,,,True,146.33
+irt,openai/gpt-oss-120b,exact,high,140.23,0,0,official,140.23,138.26,142.08,,,,True,140.23
+irt,openai/gpt-oss-20b,exact,high,134.88,0,0,official,134.88,132.27,137.31,,,,True,134.88
+irt,openai/o3-mini,exact,high,140.65,0,0,official,140.65,138.96,142.25,,,,True,140.65
+irt,openai/o4-mini,exact,high,145.22,0,0,official,145.22,143.68,146.7,,,,True,145.22
+irt,perceptron/perceptron-mk1,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,perplexity/sonar,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,prime-intellect/intellect-3,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen-2.5-72b-instruct,exact,high,127.21,0,0,official,127.21,124.47,129.8,,,,True,127.21
+irt,qwen/qwen-2.5-7b-instruct,none,high,,6,0,epoch_projection,114.87537521766662,111.60630764652099,118.11897932237498,1.886417009388623,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+irt,qwen/qwen-2.5-coder-32b-instruct,family,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen-plus,none,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen-plus-2025-07-28,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen2.5-vl-72b-instruct,family,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3-14b,exact,high,136.08,0,0,official,136.08,133.42,138.55,,,,True,136.08
+irt,qwen/qwen3-235b-a22b,exact,high,138.43,0,0,official,138.43,136.11,140.67,,,,True,138.43
+irt,qwen/qwen3-235b-a22b-2507,exact,high,138.07,0,0,official,138.07,135.66,140.24,,,,True,138.07
+irt,qwen/qwen3-30b-a3b,exact,high,134.18,0,0,official,134.18,131.45,136.76,,,,True,134.18
+irt,qwen/qwen3-30b-a3b-instruct-2507,exact,high,134.83,0,0,official,134.83,131.99,137.52,,,,True,134.83
+irt,qwen/qwen3-30b-a3b-thinking-2507,exact,high,138.35,0,0,official,138.35,135.77,140.82,,,,True,138.35
+irt,qwen/qwen3-32b,exact,high,136.84,0,0,official,136.84,134.41,139.22,,,,True,136.84
+irt,qwen/qwen3-8b,exact,high,132.08,0,0,official,132.08,129.06,134.78,,,,True,132.08
+irt,qwen/qwen3-coder,none,high,,3,0,epoch_projection,142.6252999439722,141.59357182668552,143.68029237488724,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,qwen/qwen3-coder-30b-a3b-instruct,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3-coder-flash,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3-coder-next,none,high,,1,0,epoch_projection,136.8894327957687,135.3726896584131,138.41489651039632,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,qwen/qwen3-coder-plus,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3-next-80b-a3b-instruct,none,high,,1,0,epoch_projection,135.245561261168,133.18966095220085,137.1545648005471,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,qwen/qwen3-vl-235b-a22b-instruct,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3-vl-30b-a3b-instruct,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3-vl-32b-instruct,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3-vl-8b-instruct,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3.5-122b-a10b,none,high,,3,0,epoch_projection,146.23226969834653,145.16153430580113,146.9632936311701,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,qwen/qwen3.5-27b,none,high,,3,0,epoch_projection,143.5388731276246,142.45595402364964,144.39061872951828,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,qwen/qwen3.5-35b-a3b,exact,high,144.08,0,0,official,144.08,141.59,146.7,,,,True,144.08
+irt,qwen/qwen3.5-397b-a17b,exact,high,147.95,0,0,official,147.95,145.8,150.07,,,,True,147.95
+irt,qwen/qwen3.5-9b,exact,high,139.48,0,0,official,139.48,137.26,141.69,,,,True,139.48
+irt,qwen/qwen3.5-flash-02-23,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3.5-plus-02-15,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3.5-plus-20260420,snapshot,low,,0,0,none,,,,,,no benchmark data,False,
+irt,qwen/qwen3.6-27b,exact,high,146.78,0,0,official,146.78,144.68,148.89,,,,True,146.78
+irt,qwen/qwen3.6-35b-a3b,exact,high,144.11,0,0,official,144.11,142.23,146.0,,,,True,144.11
+irt,qwen/qwen3.6-flash,exact,high,143.76,0,0,official,143.76,141.76,145.7,,,,True,143.76
+irt,qwen/qwen3.6-plus,exact,high,148.91,0,0,official,148.91,146.96,150.92,,,,True,148.91
+irt,rekaai/reka-edge,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,rekaai/reka-flash-3,none,high,,1,0,epoch_projection,134.27650593433967,131.00760059734108,136.8569871153069,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,sao10k/l3-lunaris-8b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,stepfun/step-3.5-flash,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,stepfun/step-3.7-flash,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,tencent/hunyuan-a13b-instruct,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,tencent/hy3-preview,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,thedrummer/rocinante-12b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,upstage/solar-pro-3,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,x-ai/grok-4.20,exact,high,152.3,0,0,official,152.3,150.58,154.09,,,,True,152.3
+irt,x-ai/grok-4.3,snapshot,medium,,0,0,none,,,,,,no benchmark data,False,
+irt,x-ai/grok-build-0.1,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,xiaomi/mimo-v2-flash,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,xiaomi/mimo-v2.5,none,high,,1,0,epoch_projection,120.3507050480723,120.09436622705444,121.25030620910496,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,xiaomi/mimo-v2.5-pro,none,high,,3,0,epoch_projection,149.54460362926986,148.34408794785762,150.6914230160226,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,z-ai/glm-4-32b,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,z-ai/glm-4.5,none,high,,2,0,epoch_projection,137.47992515317958,135.97687616761905,138.8526026603743,6.165871545992027,,fewer than 4 benchmarks,False,
+irt,z-ai/glm-4.5-air,none,high,,1,0,epoch_projection,120.61011121770919,120.23038306628332,121.41122211661578,11.634040917205107,,fewer than 4 benchmarks,False,
+irt,z-ai/glm-4.5v,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,z-ai/glm-4.6,none,high,,3,0,epoch_projection,140.99246393769192,139.84389093096277,142.12070075374314,4.021311332474821,,fewer than 4 benchmarks,False,
+irt,z-ai/glm-4.6v,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,z-ai/glm-4.7,exact,high,143.36,0,0,official,143.36,141.4,145.27,,,,True,143.36
+irt,z-ai/glm-4.7-flash,none,high,,2,0,epoch_projection,137.38476881431544,136.09588869075642,138.529255660832,6.165871545992027,,fewer than 4 benchmarks,False,
+irt,z-ai/glm-5,exact,high,146.54,0,0,official,146.54,144.97,148.11,,,,True,146.54
+irt,z-ai/glm-5-turbo,none,high,,0,0,none,,,,,,no benchmark data,False,
+irt,z-ai/glm-5.1,exact,high,150.73,0,0,official,150.73,148.77,152.77,,,,True,150.73
+irt,z-ai/glm-5v-turbo,none,high,,0,0,none,,,,,,no benchmark data,False,
+safetywashing_chat,Llama-2-13b-chat-hf,exact,high,96.28,0,12,official,96.28,87.19,104.31,,97.33538188080037,,True,96.28
+safetywashing_chat,Llama-2-70b-chat-hf,exact,high,105.64,0,12,official,105.64,99.62,110.86,,104.62021648091864,,True,105.64
+safetywashing_chat,Llama-2-7b-chat-hf,family,medium,,0,12,sw_link,91.4452917447908,81.86885854505186,99.6041675683022,,,,True,91.4452917447908
+safetywashing_chat,Meta-Llama-3-70B-Instruct,exact,high,121.34,0,12,official,121.34,117.67,124.75,,120.63064407499179,,True,121.34
+safetywashing_chat,Meta-Llama-3-8B-Instruct,exact,high,109.0,0,12,official,109.0,103.32,113.95,,109.17098757278025,,True,109.0
+safetywashing_chat,Mistral-7B-Instruct-v0.2,family,low,,3,12,sw_link,99.68345335968354,93.71711409173354,106.37026464274878,,,,True,99.68345335968354
+safetywashing_chat,Mixtral-8x22B-Instruct-v0.1,exact,high,118.66,0,12,official,118.66,114.34,122.54,,119.97186009410372,,True,118.66
+safetywashing_chat,Mixtral-8x7B-Instruct-v0.1,exact,high,113.1,0,12,official,113.1,108.13,117.48,,111.48839724166434,,True,113.1
+safetywashing_chat,Qwen1.5-0.5B-Chat,none,high,,0,12,sw_link,53.028049976870726,35.756798809439886,67.5922997179416,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_chat,Qwen1.5-1.8B-Chat,none,high,,0,12,sw_link,77.15728792093924,63.513376819867425,88.66492062889078,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_chat,Qwen1.5-110B-Chat,none,high,,0,12,sw_link,103.20016305976063,93.30160937363583,114.96277382157805,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_chat,Qwen1.5-14B-Chat,none,high,,1,12,sw_link,97.45104579024903,87.26311981776021,107.06480594823827,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_chat,Qwen1.5-32B-Chat,none,high,,2,12,sw_link,101.31343519929936,92.47109017164223,111.3965170583752,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_chat,Qwen1.5-4B-Chat,none,high,,0,12,sw_link,81.29533875704809,69.11466136876497,92.8952734134778,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_chat,Qwen1.5-72B-Chat,none,high,,1,12,sw_link,99.21762821915213,89.69335261964714,111.25187451423169,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_chat,Qwen1.5-7B-Chat,none,high,,1,12,sw_link,89.80233139166928,79.5738999516792,100.05957627383206,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_chat,Yi-34B-Chat,none,high,,5,12,sw_link,107.53306902627025,100.90192079370955,113.72124674178464,,,,True,107.53306902627025
+safetywashing_chat,Yi-6B-Chat,exact,high,94.06,0,12,official,94.06,83.69,102.91,,97.17427124534125,,True,94.06
+safetywashing_chat,dbrx-instruct,none,high,,2,12,sw_link,114.53587898517537,110.88199625304435,118.12064921543477,,,,True,114.53587898517537
+safetywashing_chat,deepseek-llm-67b-chat,none,high,,3,12,sw_link,108.81074017179102,101.89941376166891,114.65727678902482,,,,True,108.81074017179102
+safetywashing_chat,deepseek-llm-7b-chat,none,high,,0,12,sw_link,97.84116237378835,90.03785447181232,104.63271511356922,,,,True,97.84116237378835
+safetywashing_chat,falcon-180B-chat,family,medium,,0,12,sw_link,108.06578683283074,102.99250405282133,112.36943938457111,,,"Falcon chat (worst leave-one-out error, Falcon-40B-Instruct +9)",False,
+safetywashing_chat,falcon-40b-instruct,exact,high,90.42,0,12,official,90.42,79.63,99.75,,99.69497889534563,,True,90.42
+safetywashing_chat,falcon-7b-instruct,family,medium,,0,12,sw_link,77.83198065808125,62.67208380116912,90.81781428360664,,,"Falcon chat (worst leave-one-out error, Falcon-40B-Instruct +9)",False,
+safetywashing_chat,gemma-1.1-2b-it,family,low,,0,12,sw_link,77.48636675793884,64.00055375788229,89.55400900591319,,,estimate below 80 (re-estimation unreliable for weak models),False,
+safetywashing_chat,gemma-1.1-7b-it,family,low,,0,12,sw_link,93.4074780978835,81.42486768478376,105.6109627550239,,,90% interval wider than 20 points,False,
+safetywashing_base,Mixtral-8x22B-v0.1,exact,high,118.66,0,12,official,118.66,114.34,122.54,,118.99364785985586,,True,118.66
+safetywashing_base,Mistral-7B-v0.1,exact,high,102.56,0,12,official,102.56,94.84,109.26,,100.52390575302033,,True,102.56
+safetywashing_base,Llama-2-13b-hf,exact,high,96.28,0,12,official,96.28,87.19,104.31,,93.24891633316751,,True,96.28
+safetywashing_base,Qwen1.5-72B,none,high,,1,12,sw_link,111.99544515637918,101.9468126397855,118.35091137315227,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_base,Qwen1.5-14B,none,high,,1,12,sw_link,107.06173033018518,98.64993855214529,114.24775668067971,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_base,Yi-9B,exact,high,102.06,0,12,official,102.06,90.22,112.03,,103.82114227646642,,True,102.06
+safetywashing_base,falcon-40b,exact,high,90.42,0,12,official,90.42,79.63,99.75,,94.78953187631218,,True,90.42
+safetywashing_base,Meta-Llama-3-70B,exact,high,121.34,0,12,official,121.34,117.67,124.75,,121.15182297138719,,True,121.34
+safetywashing_base,falcon-7b,exact,high,72.84,0,12,official,72.84,57.82,85.82,,77.06228742964984,,True,72.84
+safetywashing_base,Meta-Llama-3-8B,exact,high,109.0,0,12,official,109.0,103.32,113.95,,104.51522950200425,,True,109.0
+safetywashing_base,Qwen1.5-0.5B,none,high,,0,12,sw_link,52.59659278637617,33.517347294334755,70.48768540284152,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_base,dbrx-base,none,high,,2,12,sw_link,114.16004541580116,110.28930075933904,118.29788505953258,,,,True,114.16004541580116
+safetywashing_base,deepseek-llm-67b-base,none,high,,3,12,sw_link,110.57963076991375,106.4341617825159,114.93908490213272,,,,True,110.57963076991375
+safetywashing_base,Qwen1.5-1.8B,none,high,,0,12,sw_link,72.20469300626861,54.1527075908986,87.52496585734963,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_base,Yi-6B,exact,high,94.06,0,12,official,94.06,83.69,102.91,,95.4425904723794,,True,94.06
+safetywashing_base,Yi-34B,none,high,,5,12,sw_link,112.36711998235208,108.50268502793293,116.61620014413916,,,,True,112.36711998235208
+safetywashing_base,gemma-2b,exact,high,75.36,0,12,official,75.36,60.81,87.85,,79.31629612165172,,True,75.36
+safetywashing_base,gemma-7b,exact,high,102.87,0,12,official,102.87,94.96,109.59,,101.4390252252236,,True,102.87
+safetywashing_base,Llama-2-70b-hf,exact,high,105.64,0,12,official,105.64,99.62,110.86,,108.43332751912324,,True,105.64
+safetywashing_base,deepseek-llm-7b-base,none,high,,0,12,sw_link,86.2451798983413,76.07509269871704,95.10333183108955,,,,True,86.2451798983413
+safetywashing_base,Llama-2-7b-hf,exact,high,82.8,0,12,official,82.8,70.34,93.04,,85.52325692900479,,True,82.8
+safetywashing_base,falcon-180B,exact,high,106.92,0,12,official,106.92,98.04,115.21,,110.04952976775223,,True,106.92
+safetywashing_base,Qwen1.5-4B,none,high,,0,12,sw_link,89.68718138259274,75.08873614615241,101.1148358859895,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_base,Qwen1.5-110B,none,high,,0,12,sw_link,120.81966819408508,113.59165170817829,125.96074219300841,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_base,Mixtral-8x7B-v0.1,exact,high,113.1,0,12,official,113.1,108.13,117.48,,111.44648299396519,,True,113.1
+safetywashing_base,Qwen1.5-7B,none,high,,1,12,sw_link,96.53144221934188,87.05336827941481,105.32520828704818,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,
+safetywashing_base,Qwen1.5-32B,none,high,,2,12,sw_link,111.38851599051192,105.09827572709716,116.726238308513,,,Qwen (chat/base estimates disagree; no Qwen anchor),False,

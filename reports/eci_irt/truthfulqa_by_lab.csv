@@ -1,0 +1,9 @@
+label,rho,n,pooled
+All open-weight models,0.7202626641651032,40,True
+All closed models,0.10526315789473684,20,True
+DeepSeek,0.9428571428571428,6,False
+Anthropic,0.8,4,False
+Meta AI,0.75,7,False
+Alibaba,0.510989010989011,13,False
+Google DeepMind (open and closed models),0.25,9,False
+OpenAI,-0.21428571428571427,8,False
